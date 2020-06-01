@@ -1,7 +1,7 @@
 
 export default {
-  base: '/project-thea-website/',
-  publicPath: '/project-thea-website/',
+  //base: '/project-thea-website/',
+  //publicPath: '/project-thea-website/',
   exportStatic: {
     htmlSuffix: true,
     dynamicRoot: true,

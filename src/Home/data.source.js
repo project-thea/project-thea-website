@@ -10,8 +10,6 @@ export const Nav30DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header3-logo',
-    //children:
-    //'https://gw.alipayobjects.com/zos/basement_prod/b30cdc2a-d91c-4c78-be9c-7c63b308d4b3.svg',
 	 children: logoImg
   },
   Menu: {
@@ -33,58 +31,7 @@ export const Nav30DataSource = {
             },
           ],
         },
-        //subItem: [
-        //  {
-        //    name: 'sub0',
-        //    className: 'item-sub',
-        //    children: {
-        //      className: 'item-sub-item',
-        //      children: [
-        //        {
-        //          name: 'image0',
-        //          className: 'item-image',
-        //          children:
-        //            'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg'
-        //        },
-        //        {
-        //          name: 'title',
-        //          className: 'item-title',
-        //          children: 'Ant Design',
-        //        },
-        //        {
-        //          name: 'content',
-        //          className: 'item-content',
-        //          children: '企业级 UI 设计体系',
-        //        },
-        //      ],
-        //    },
-        //  },
-        //  {
-        //    name: 'sub1',
-        //    className: 'item-sub',
-        //    children: {
-        //      className: 'item-sub-item',
-        //      children: [
-        //        {
-        //          name: 'image0',
-        //          className: 'item-image',
-        //          children:
-        //            'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-        //        },
-        //        {
-        //          name: 'title',
-        //          className: 'item-title',
-        //          children: 'Ant Design',
-        //        },
-        //        {
-        //          name: 'content',
-        //          className: 'item-content',
-        //          children: '企业级 UI 设计体系',
-        //        },
-        //      ],
-        //    },
-        //  },
-        //],
+
       },
       {
         name: 'item1',
@@ -212,7 +159,6 @@ export const Banner50DataSource = {
   image: {
     className: 'banner5-image',
     children:
-      //'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
 	  networkImg
   },
 };
@@ -221,7 +167,6 @@ export const Feature10DataSource = {
   OverPack: { className: 'home-page content1', playScale: 0.3 },
   imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
   img: {
-    //children: 'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
 	children: phoneTrackingImg
   },
   textWrapper: { className: 'content1-text', md: 14, xs: 24 },
