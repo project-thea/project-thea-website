@@ -58,48 +58,48 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Nav3
-        id="Nav3_0"
-        key="Nav3_0"
-        dataSource={Nav30DataSource}
-        isMobile={this.state.isMobile}
-      />,
+      //<Nav3
+      //  id="Nav3_0"
+      //  key="Nav3_0"
+      //  dataSource={Nav30DataSource}
+      //  isMobile={this.state.isMobile}
+      ///>,
       <Banner5
         id="Banner5_0"
         key="Banner5_0"
         dataSource={Banner50DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature1
-        id="Feature1_0"
-        key="Feature1_0"
-        dataSource={Feature10DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Content3
-        id="Content3_0"
-        key="Content3_0"
-        dataSource={Content30DataSource}
-        isMobile={this.state.isMobile}
-      />,
+      //<Feature1
+      //  id="Feature1_0"
+      //  key="Feature1_0"
+      //  dataSource={Feature10DataSource}
+      //  isMobile={this.state.isMobile}
+      ///>,
+      //<Content3
+      //  id="Content3_0"
+      //  key="Content3_0"
+      //  dataSource={Content30DataSource}
+      //  isMobile={this.state.isMobile}
+      ///>,
       //<Teams2
       //  id="Teams2_0"
       //  key="Teams2_0"
       //  dataSource={Teams20DataSource}
       //  isMobile={this.state.isMobile}
       ///>,
-      <Content12
-        id="Content12_0"
-        key="Content12_0"
-        dataSource={Content120DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Footer1
-        id="Footer1_0"
-        key="Footer1_0"
-        dataSource={Footer10DataSource}
-        isMobile={this.state.isMobile}
-      />,
+      //<Content12
+      //  id="Content12_0"
+      //  key="Content12_0"
+      //  dataSource={Content120DataSource}
+      //  isMobile={this.state.isMobile}
+      ///>,
+      //<Footer1
+      //  id="Footer1_0"
+      //  key="Footer1_0"
+      //  dataSource={Footer10DataSource}
+      //  isMobile={this.state.isMobile}
+      ///>,
     ];
     return (
       <div

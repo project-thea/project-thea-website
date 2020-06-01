@@ -122,38 +122,38 @@ export const Banner50DataSource = {
           </span>
         ),
       },
-      {
-        name: 'content',
-        className: 'banner5-content',
-        children: (
-          <span>
-            <span>
-              <span>
-                <span>
-                  <p>
-                    An open source pandemic modelling platform using trucking
-                    data
-                  </p>
-                </span>
-              </span>
-            </span>
-          </span>
-        ),
-      },
-      {
-        name: 'button',
-        className: 'banner5-button-wrapper',
-        children: {
-          href: '#',
-          className: 'banner5-button',
-          type: 'primary',
-          children: (
-            <span>
-              <p>Get started</p>
-            </span>
-          ),
-        },
-      },
+      //{
+      //  name: 'content',
+      //  className: 'banner5-content',
+      //  children: (
+      //    <span>
+      //      <span>
+      //        <span>
+      //          <span>
+      //            <p>
+      //              An open source pandemic modelling platform using trucking
+      //              data
+      //            </p>
+      //          </span>
+      //        </span>
+      //      </span>
+      //    </span>
+      //  ),
+      //},
+      //{
+      //  name: 'button',
+      //  className: 'banner5-button-wrapper',
+      //  children: {
+      //    href: '#',
+      //    className: 'banner5-button',
+      //    type: 'primary',
+      //    children: (
+      //      <span>
+      //        <p>Get started</p>
+      //      </span>
+      //    ),
+      //  },
+      //},
     ],
   },
   image: {
