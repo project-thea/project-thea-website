@@ -5,7 +5,7 @@ import { getChildrenToRender } from './utils';
 
 const { Item, SubMenu } = Menu;
 
-class Header extends React.Component {
+class Header3 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -31,15 +31,15 @@ class Header extends React.Component {
           <SubMenu
             key={item.name}
             {...itemProps}
-            title={(
+            title={
               <div
                 {...a}
-                className={`header0-item-block ${a.className}`.trim()}
+                className={`header3-item-block ${a.className}`.trim()}
               >
                 {a.children.map(getChildrenToRender)}
               </div>
-            )}
-            popupClassName="header0-item-child"
+            }
+            popupClassName="header3-item-child"
           >
             {subItem.map(($item, ii) => {
               const { children: childItem } = $item;
@@ -63,7 +63,7 @@ class Header extends React.Component {
       }
       return (
         <Item key={item.name} {...itemProps}>
-          <a {...a} className={`header0-item-block ${a.className}`.trim()}>
+          <a {...a} className={`header3-item-block ${a.className}`.trim()}>
             {a.children.map(getChildrenToRender)}
           </a>
         </Item>
@@ -104,15 +104,16 @@ class Header extends React.Component {
             animation={
               isMobile
                 ? {
-                  height: 0,
-                  duration: 300,
-                  onComplete: (e) => {
-                    if (this.state.phoneOpen) {
-                      e.target.style.height = 'auto';
-                    }
-                  },
-                  ease: 'easeInOutQuad',
-                }
+                    x: 0,
+                    height: 0,
+                    duration: 300,
+                    onComplete: (e) => {
+                      if (this.state.phoneOpen) {
+                        e.target.style.height = 'auto';
+                      }
+                    },
+                    ease: 'easeInOutQuad',
+                  }
                 : null
             }
             moment={moment}
@@ -121,7 +122,7 @@ class Header extends React.Component {
             <Menu
               mode={isMobile ? 'inline' : 'horizontal'}
               defaultSelectedKeys={['sub0']}
-              theme="dark"
+              theme="light"
             >
               {navChildren}
             </Menu>
@@ -132,4 +133,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header;
+export default Header3;
