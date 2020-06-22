@@ -28,21 +28,23 @@ function Content1(props) {
   return (
     <div {...tagProps} {...dataSource.wrapper}>
       <OverPack {...dataSource.OverPack} component={Row}>
-        <TweenOne
-          key="img"
-          animation={animType.one}
-          resetStyle
-          {...dataSource.imgWrapper}
-          component={Col}
-          componentProps={{
-            md: dataSource.imgWrapper.md,
-            xs: dataSource.imgWrapper.xs,
-          }}
-        >
-          <span {...dataSource.img}>
-            <img src={dataSource.img.children} width="100%" alt="img" />
-          </span>
-        </TweenOne>
+		  {
+	   //<TweenOne
+       //  key="img"
+       //  animation={animType.one}
+       //  resetStyle
+       //  {...dataSource.imgWrapper}
+       //  component={Col}
+       //  componentProps={{
+       //    md: dataSource.imgWrapper.md,
+       //    xs: dataSource.imgWrapper.xs,
+       //  }}
+       //>
+       //  <span {...dataSource.img}>
+       //    <img src={dataSource.img.children} width="100%" alt="img" />
+       //  </span>
+       //</TweenOne>
+		  }
         <QueueAnim
           key="text"
           type={animType.queue}

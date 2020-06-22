@@ -1,9 +1,13 @@
 import React from 'react';
 import logoImg from '../images/logo_text_colored.svg';
 import logoWhiteImg from '../images/logo_text_white.svg';
-import networkImg from '../images/network_structure.png';
+//import networkImg from '../images/network_structure.png';
 import phoneTrackingImg from '../images/phone_tracking.png';
 import bodastageLogo from '../images/bodastage_logo.png';
+import RoslinLogo from '../images/roslin.png';
+import mukLogo from '../images/muk.jpg';
+import mohLogo from '../images/moh.png';
+import THEALogo from '../images/THEA_LOGO.png';
 
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
@@ -37,12 +41,12 @@ export const Nav30DataSource = {
         name: 'item1',
         className: 'header3-item',
         children: {
-          href: '#Content3_0',
+          href: '#Feature1_0',
           children: [
             {
               children: (
                 <span>
-                  <p>Features</p>
+                  <p>About</p>
                 </span>
               ),
               name: 'text',
@@ -77,7 +81,7 @@ export const Nav30DataSource = {
         name: 'item3',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://github.com/project-thea/',
           children: [
             {
               children: (
@@ -149,7 +153,7 @@ export const Banner50DataSource = {
       //    type: 'primary',
       //    children: (
       //      <span>
-      //        <p>Get started</p>
+      //        <p>Download app</p>
       //      </span>
       //    ),
       //  },
@@ -159,7 +163,8 @@ export const Banner50DataSource = {
   image: {
     className: 'banner5-image',
     children:
-	  networkImg
+	  //networkImg
+	  THEALogo
   },
 };
 export const Feature10DataSource = {
@@ -169,12 +174,13 @@ export const Feature10DataSource = {
   img: {
 	children: phoneTrackingImg
   },
-  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
+  textWrapper: { className: 'content1-text', md: 28, xs: 24 },
+  //textWrapper: { className: 'content1-text', md: 14, xs: 24 },
   title: {
     className: 'content1-title',
     children: (
       <span>
-        <p>What is it?</p>
+        <p>About the project</p>
       </span>
     ),
   },
@@ -184,7 +190,7 @@ export const Feature10DataSource = {
       <span>
         <span>
           <p>
-Project-THEA is a tracking platform using a mobile application akin to one used in airline traffic tracking. We combile geo-location technology and COVID-19 test-history information as mobile application called THEA-C19 to support public health preparedness and surveillance. This technology collates multiple COVID-test results of drivers and other occupants of haulage tracks along the transit routes together with geo-location in real time to improve preparedness and case track and tracing within and between borders of East Africa.
+Project-THEA is a tracking platform using a mobile application akin to one used in airline traffic tracking. We combile geo-location technology and COVID-19 test-history information through a mobile application called <b>THEA-C19</b> to support public health preparedness and surveillance. This technology collates multiple COVID-test results of drivers and other occupants of haulage tracks along the transit routes together with geo-location in real time to improve preparedness and case track and tracing within and between borders of East Africa.
           </p>
         </span>
       </span>
@@ -856,51 +862,47 @@ export const Content120DataSource = {
         children: {
           wrapper: { className: 'block-content' },
           img: {
-            children:
-              //'https://gw.alipayobjects.com/zos/rmsportal/TFicUVisNHTOEeMYXuQF.svg',
-			  bodastageLogo
+            children: bodastageLogo
           },
         },
       },
-      //{
-      //  name: 'block1',
-      //  className: 'block',
-      //  md: 8,
-      //  xs: 24,
-      //  children: {
-      //    wrapper: { className: 'block-content' },
-      //    img: {
-      //      children:
-      //        'https://gw.alipayobjects.com/zos/rmsportal/hkLGkrlCEkGZeMQlnEkD.svg',
-      //    },
-      //  },
-      //},
-      //{
-      //  name: 'block2',
-      //  className: 'block',
-      //  md: 8,
-      //  xs: 24,
-      //  children: {
-      //    wrapper: { className: 'block-content' },
-      //    img: {
-      //      children:
-      //        'https://gw.alipayobjects.com/zos/rmsportal/bqyPRSZmhvrsfJrBvASi.svg',
-      //    },
-      //  },
-      //},
-      //{
-      //  name: 'block3',
-      //  className: 'block',
-      //  md: 8,
-      //  xs: 24,
-      //  children: {
-      //    wrapper: { className: 'block-content' },
-      //    img: {
-      //      children:
-      //        'https://gw.alipayobjects.com/zos/rmsportal/UcsyszzOabdCYDkoPPnM.svg',
-      //    },
-      //  },
-      //},
+      {
+        name: 'block1',
+        className: 'block',
+        md: 8,
+        xs: 24,
+		href: 'https://www.ed.ac.uk/roslin',
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children: RoslinLogo
+          },
+        },
+      },
+      {
+        name: 'block2',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children: mohLogo
+          },
+        },
+      },
+      {
+        name: 'block3',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children: mukLogo
+          },
+        },
+      },
       //{
       //  name: 'block4',
       //  className: 'block',
@@ -970,19 +972,18 @@ export const Footer10DataSource = {
         title: { children: 'Resources' },
         childWrapper: {
           children: [
-            {
-              name: 'link0',
-              href: '#',
-              children: (
-                <span>
-                  <span>
-                    <p>Publications</p>
-                  </span>
-                </span>
-              ),
-            },
-            { name: 'link1', href: '#', children: 'White Paper' },
-			{ name: 'link1', href: '#', children: 'Forum' },
+            //{
+            //  name: 'link0',
+            //  href: '#',
+            //  children: (
+            //    <span>
+            //      <span>
+            //        <p>Publications</p>
+            //      </span>
+            //    </span>
+            //  ),
+            //},
+            { name: 'link1', href: 'https://github.com/project-thea/', children: 'Github' },
           ],
         },
       },
@@ -991,11 +992,10 @@ export const Footer10DataSource = {
         xs: 24,
         md: 6,
         className: 'block',
-        title: { children: 'Help' },
+        title: { children: 'Contact' },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'FAQ' },
-            { href: '#', name: 'link1', children: 'Issues' },
+            { href: '#', name: 'link0', children: 'support@project-thea.org' },
           ],
         },
       },
