@@ -144,20 +144,20 @@ export const Banner50DataSource = {
       //    </span>
       //  ),
       //},
-      //{
-      //  name: 'button',
-      //  className: 'banner5-button-wrapper',
-      //  children: {
-      //    href: '#',
-      //    className: 'banner5-button',
-      //    type: 'primary',
-      //    children: (
-      //      <span>
-      //        <p>Download app</p>
-      //      </span>
-      //    ),
-      //  },
-      //},
+		{
+        name: 'button',
+        className: 'banner5-button-wrapper',
+        children: {
+          href: 'https://github.com/project-thea/mobile-app/releases',
+          className: 'banner5-button',
+          type: 'primary',
+          children: (
+            <span>
+              <p>Get mobile app</p>
+            </span>
+          ),
+        },
+      },
     ],
   },
   image: {
@@ -190,7 +190,7 @@ export const Feature10DataSource = {
       <span>
         <span>
           <p>
-Project-THEA is a tracking platform using a mobile application akin to one used in airline traffic tracking. We combile geo-location technology and COVID-19 test-history information through a mobile application called <b>THEA-C19</b> to support public health preparedness and surveillance. This technology collates multiple COVID-test results of drivers and other occupants of haulage tracks along the transit routes together with geo-location in real time to improve preparedness and case track and tracing within and between borders of East Africa.
+Project-THEA is a tracking platform using a mobile application akin to the one used in airline traffic tracking. We combine geo-location technology and COVID-19 test-history information through a mobile application called THEA-C19 to support public health preparedness and surveillance. This technology collates multiple COVID-test results of drivers and other occupants of haulage tracks along the transit routes together with geolocation in real-time to improve preparedness and case track and tracing within and between borders of East Africa.
           </p>
         </span>
       </span>
