@@ -148,7 +148,8 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: 'https://github.com/project-thea/mobile-app/releases',
+          //href: 'https://github.com/project-thea/mobile-app/releases',
+		  href: 'https://github.com/project-thea/mobile-app/releases/download/v0.0.2/thea-c19-v0.0.2.apk',
           className: 'banner5-button',
           type: 'primary',
           children: (
