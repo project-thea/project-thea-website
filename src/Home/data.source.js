@@ -191,8 +191,11 @@ export const Feature10DataSource = {
       <span>
         <span>
           <p>
-Project-THEA is a tracking platform using a mobile application akin to the one used in airline traffic tracking. We combine geo-location technology and COVID-19 test-history information through a mobile application called THEA-C19 to support public health preparedness and surveillance. This technology collates multiple COVID-test results of drivers and other occupants of haulage tracks along the transit routes together with geolocation in real-time to improve preparedness and case track and tracing within and between borders of East Africa.
+Project-THEA aims to deliver an open access mobile application to support track and trace tailored to the haulage industry. The tool is designed to combine anonymized time-stamped geo-location information relative to the road infrastructure with COVID-19 test results, to not only support public health efforts to limit transmission but also the safe reopening of economies. Critically the efficiency in track and trace enhances the flow of the regional supply chain as well as strategic allocation of public health surveillance resources. 
           </p>
+		  <p>
+		  <strong>NB:</strong> The tool is open access but the data access is limited to public health institutions. This way its use is not limited to East Africa.
+		  </p>
         </span>
       </span>
     ),
