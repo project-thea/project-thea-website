@@ -905,7 +905,7 @@ export const Content120DataSource = {
         className: 'block',
         md: 6,
         xs: 24,
-		href: 'https://www.ed.ac.uk/informatics',
+		href: 'https://www.ed.ac.uk/informatics/blockchain',
         children: {
           wrapper: { className: 'block-content' },
           img: {
