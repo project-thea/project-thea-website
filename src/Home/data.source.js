@@ -3,11 +3,12 @@ import logoImg from '../images/logo_text_colored.svg';
 import logoWhiteImg from '../images/logo_text_white.svg';
 //import networkImg from '../images/network_structure.png';
 import phoneTrackingImg from '../images/phone_tracking.png';
-import bodastageLogo from '../images/bodastage_logo.png';
+import bodastageLogo from '../images/logo-bodastage.svg';
 import RoslinLogo from '../images/roslin.png';
 import mukLogo from '../images/muk.jpg';
 import mohLogo from '../images/moh.png';
 import THEALogo from '../images/THEA_LOGO.png';
+import EdinInfoLogo from '../images/edinburgh_informatics.png';
 
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
@@ -54,29 +55,29 @@ export const Nav30DataSource = {
           ],
         },
       },
-      //{
-      //  name: 'item2',
-      //  className: 'header3-item',
-      //  children: {
-      //    href: '#Content12_0',
-      //    children: [
-      //      {
-      //        children: (
-      //          <span>
-      //            <span>
-      //              <span>
-      //                <span>
-      //                  <p>Partners</p>
-      //                </span>
-      //              </span>
-      //            </span>
-      //          </span>
-      //        ),
-      //        name: 'text',
-      //      },
-      //    ],
-      //  },
-      //},
+      {
+        name: 'item2',
+        className: 'header3-item',
+        children: {
+          href: '#Content12_0',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>Partners</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
       {
         name: 'item3',
         className: 'header3-item',
@@ -860,66 +861,59 @@ export const Content120DataSource = {
       {
         name: 'block0',
         className: 'block',
-        md: 8,
+        md: 6,
         xs: 24,
-	    href: 'https://www.bodastage.com/',
+		href: 'https://www.ed.ac.uk/roslin',
         children: {
           wrapper: { className: 'block-content' },
           img: {
-            children: bodastageLogo
+            children: RoslinLogo,
+			width: 200
           },
         },
       },
       {
         name: 'block1',
         className: 'block',
-        md: 8,
+        md: 6,
         xs: 24,
-		href: 'https://www.ed.ac.uk/roslin',
+	    href: 'https://www.bodastage.com/',
         children: {
           wrapper: { className: 'block-content' },
           img: {
-            children: RoslinLogo
-          },
-        },
-      },
-      {
-        name: 'block2',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: 'block-content' },
-          img: {
-            children: mohLogo
+            children: bodastageLogo,
+			width: 120
           },
         },
       },
       {
         name: 'block3',
         className: 'block',
-        md: 8,
+        md: 6,
         xs: 24,
+		href: 'https://www.mak.ac.ug/',
         children: {
           wrapper: { className: 'block-content' },
           img: {
-            children: mukLogo
+            children: mukLogo,
+			width: 160
           },
         },
       },
-      //{
-      //  name: 'block4',
-      //  className: 'block',
-      //  md: 8,
-      //  xs: 24,
-      //  children: {
-      //    wrapper: { className: 'block-content' },
-      //    img: {
-      //      children:
-      //        'https://gw.alipayobjects.com/zos/rmsportal/kRBeaICGexAmVjqBEqgw.svg',
-      //    },
-      //  },
-      //},
+      {
+        name: 'block4',
+        className: 'block',
+        md: 6,
+        xs: 24,
+		href: 'https://www.ed.ac.uk/informatics',
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children: EdinInfoLogo,
+			width: 250
+          },
+        },
+      },
       //{
       //  name: 'block5',
       //  className: 'block',

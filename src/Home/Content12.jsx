@@ -1,8 +1,10 @@
 import React from 'react';
-import { Row, Col } from 'antd';
+import { Row, Col, Anchor } from 'antd';
 import { TweenOneGroup } from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { getChildrenToRender } from './utils';
+
+const { Link } = Anchor;
 
 class Content12 extends React.PureComponent {
   getChildrenToRender = (data) =>
@@ -11,7 +13,7 @@ class Content12 extends React.PureComponent {
         <Col key={item.name} {...item}>
           <div {...item.children.wrapper}>
             <span {...item.children.img}>
-              <img src={item.children.img.children} alt="img" />
+              <img src={item.children.img.children} alt="img" width={item.children.img.width} onClick={()=>{window.open(item.href, '_blank')}}/>
             </span>
           </div>
         </Col>
