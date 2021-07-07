@@ -13,6 +13,7 @@ import EdinInfoLogo from '../images/edinburgh_informatics.png';
 import NIHRLogo from '../images/nihr_logo.png';
 import UKRILogo from '../images/ukri_logo.png';
 import mowtLogo from '../images/mowt_logo.png';
+import { AndroidOutlined, LinkOutlined } from '@ant-design/icons';
 
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
@@ -122,6 +123,23 @@ export const Nav30DataSource = {
           ],
         },
       },
+      {
+        name: 'item5',
+        className: 'header3-item',
+        children: {
+          href: 'https://demo.project-thea.org',
+          children: [
+            {
+              children: (
+                <span>
+                  <p>Demo</p>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
     ],
   },
   mobileMenu: { className: 'header3-mobile-menu' },
@@ -182,7 +200,21 @@ export const Banner50DataSource = {
           type: 'primary',
           children: (
             <span>
-              <p>Get mobile app</p>
+              <p><AndroidOutlined /> Get mobile app</p>
+            </span>
+          ),
+        },
+      },
+	  {
+        name: 'button',
+        className: 'banner5-button-wrapper2',
+        children: {
+		  href: 'https://demo.project-thea.org',
+          className: 'banner5-button',
+          //type: 'default',
+          children: (
+            <span>
+              <p><LinkOutlined /> Try server demo</p>
             </span>
           ),
         },
@@ -192,7 +224,6 @@ export const Banner50DataSource = {
   image: {
     className: 'banner5-image',
     children:
-	  //networkImg
 	  THEALogo
   },
 };
