@@ -14,6 +14,15 @@ import NIHRLogo from '../images/nihr_logo.png';
 import UKRILogo from '../images/ukri_logo.png';
 import mowtLogo from '../images/mowt_logo.png';
 import { AndroidOutlined, LinkOutlined } from '@ant-design/icons';
+import pillarsImg from '../images/pillars.png';
+import teamJolobaImg from '../images/team-moses-joloba.png';
+import teamAdrianImg from '../images/team-adrian-muwonge.png';
+import teamMarkImg from '../images/team-bronsvoort.png';
+import teamEmmaImg from '../images/team-emma.png';
+import teamChristineImg from '../images/team-christine.jpeg';
+import teamErisaImg from '../images/team-erisa.jpeg';
+import teamEmmanuelImg from '../images/team-emmanuel.png';
+import teamPlaceholderImg from '../images/placeholder.png';
 
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
@@ -47,7 +56,7 @@ export const Nav30DataSource = {
         name: 'item1',
         className: 'header3-item',
         children: {
-          //href: '#Feature1_0',
+          href: 'index.html#Feature1_0',
 		  href: 'about.html',
           children: [
             {
@@ -115,7 +124,7 @@ export const Nav30DataSource = {
         name: 'item2',
         className: 'header3-item',
         children: {
-          href: 'index.html#Content12_0',
+          href: '#Content12_0',
           children: [
             {
               children: (
@@ -138,7 +147,7 @@ export const Nav30DataSource = {
         name: 'item3',
         className: 'header3-item',
         children: {
-          href: 'index.html#Content12_1',
+          href: '#Content12_1',
           children: [
             {
               children: (
@@ -150,40 +159,6 @@ export const Nav30DataSource = {
                       </span>
                     </span>
                   </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item5',
-        className: 'header3-item',
-        children: {
-          href: 'community.html',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>Community Engagement</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item6',
-        className: 'header4-item',
-        children: {
-          href: 'resources.html',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>Resources</p>
                 </span>
               ),
               name: 'text',
@@ -207,7 +182,24 @@ export const Nav30DataSource = {
             },
           ],
         },
-      }
+      },
+      {
+        name: 'item5',
+        className: 'header3-item',
+        children: {
+          href: 'community-engagement.html',
+          children: [
+            {
+              children: (
+                <span>
+                  <p>Community Engagement</p>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
     ],
   },
   mobileMenu: { className: 'header3-mobile-menu' },
@@ -218,15 +210,15 @@ export const Banner50DataSource = {
   childWrapper: {
     className: 'banner5-title-wrapper',
     children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <p>Project THEA</p>
-          </span>
-        ),
-        className: 'banner5-title',
-      },
+      //{
+      //  name: 'title',
+      //  children: (
+      //    <span>
+      //      <p>Project THEA</p>
+      //    </span>
+      //  ),
+      //  className: 'banner5-title',
+      //},
       {
         name: 'explain',
         className: 'banner5-explain',
@@ -263,7 +255,7 @@ export const Banner50DataSource = {
         className: 'banner5-button-wrapper',
         children: {
           //href: 'https://github.com/project-thea/mobile-app/releases',
-		  href: 'https://play.google.com/store/apps/details?id=com.theatrucker',
+		  href: 'https://github.com/project-thea/mobile-app/releases/download/v0.0.2/thea-c19-v0.0.2.apk',
           className: 'banner5-button',
           type: 'primary',
           children: (
@@ -296,7 +288,7 @@ export const Banner50DataSource = {
   },
 };
 export const Feature10DataSource = {
-  wrapper: { className: 'home-page-wrapper content1-wrapper' },
+  wrapper: { className: 'home-page-wrapper' },
   OverPack: { className: 'home-page content1', playScale: 0.3 },
   imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
   img: {
@@ -308,24 +300,37 @@ export const Feature10DataSource = {
     className: 'content1-title',
     children: (
       <span>
-        <p>About the project</p>
+        <p>THEA-C19 Project Pillars</p>
       </span>
     ),
   },
   content: {
     className: 'content1-content',
     children: (
-      <span>
-        <span>
+	<div>
           <p>
-Project-THEA aims to deliver an open-access digital contact tracing system tailored to the haulage industry. The tool is designed to combine anonymized time-stamped geo-location information relative to the road infrastructure with COVID-19 test results to support public health efforts to limit transmission and the safe reopening of economies. Critically the efficiency in contact tracing enhances the flow of the regional supply chain and strategic allocation of public health surveillance resources.
-
+THEA-C19 is an 18 months research project funded by Medical Research council and National
+Institutes of Health Research, the first of its kind on the African continent. The project is co-led
+by principle investigators from Makerere and Edinburgh University, partnering with the
+Ministry of Health(MOH) and Bodastage solutions in Uganda. The activities are supported by
+the Ministry of Works and Transport and the National logistics platform.
+<br /><br />
           </p>
-		  <p>
-		  <strong>NB:</strong> The tool is open access, but the data access is limited to public health institutions. This way, its use is not limited to East Africa.
-		  </p>
-        </span>
-      </span>
+			  
+			<p>
+				<img src={pillarsImg} width="80%" alt="img" />
+				<br /><br />
+			</p>
+<p>
+The figure shows the four pillars of the project and where the stakeholder fit into the project
+pillars. The project is designed to generate stakeholder input for the technology
+development(“technology contextualisation”) through consultative meetings. The technology
+development pillar is led by Bodastage solutions with input from the Blockchain technology
+laboratory in Edinburgh and Makerere University. The tool will then be tested on the primary
+stakeholder i.e. haulage truck drivers, the data generated will be analysed to provide critical
+feedback to the relevant stakeholders.
+          </p>
+		</div>
     ),
   },
 };
@@ -562,6 +567,88 @@ export const Content30DataSource = {
     ],
   },
 };
+
+export const TimelineDataSource = {
+  wrapper: { className: 'home-page-wrapper teams2-wrapper' },
+  page: { className: 'home-page teams2' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>Resources</p>
+          </span>
+        ),
+      },
+    ],
+  },
+  block: {
+    className: 'block-wrapper',
+    gutter: 72,
+    children: [
+      {
+        name: 'block0',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: teamJolobaImg
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>Prof. Moses Joloba</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong>Principle investigator | Dean of the School of Biomedical Sciences Makerere University</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+Prof. Moses Joloba is the Principle investigator at Makerere University, in his capacity as Dean
+of the School of Biomedical Sciences at the College of Health Sciences, he leads the molecular
+laboratory which is playing a key role in national COVID-19 diagnostics as well as serosurveillance
+surveys to investigate the rates of community transmission. He also advises the
+MOH on pandemic and endemic disease control. In addition to the administrative work for
+the projects, Moses leads the diagnostics component and works closes with Ibrahim on
+contact tracing and Adrian on the epidemiological design and implementation
+
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      }
+	 ]
+  }
+};
+
 export const Teams20DataSource = {
   wrapper: { className: 'home-page-wrapper teams2-wrapper' },
   page: { className: 'home-page teams2' },
@@ -586,13 +673,12 @@ export const Teams20DataSource = {
       {
         name: 'block0',
         className: 'block',
-        md: 8,
+        md: 24,
         xs: 24,
         image: {
           name: 'image',
           className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+          children: teamJolobaImg
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -604,7 +690,7 @@ export const Teams20DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>Adrian Muwonge</p>
+                      <p>Prof. Moses Joloba</p>
                     </span>
                   </span>
                 </span>
@@ -615,16 +701,25 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <p>Roslin institute</p>
+                  <p><strong>Principle investigator | Dean of the School of Biomedical Sciences Makerere University</strong></p>
                 </span>
               ),
             },
             {
               name: 'content1',
-              className: 'teams2-content',
+              className: '',
               children: (
                 <span>
-                  <p>Design and disease dynamics Modelling</p>
+                  <p>
+Prof. Moses Joloba is the Principle investigator at Makerere University, in his capacity as Dean
+of the School of Biomedical Sciences at the College of Health Sciences, he leads the molecular
+laboratory which is playing a key role in national COVID-19 diagnostics as well as serosurveillance
+surveys to investigate the rates of community transmission. He also advises the
+MOH on pandemic and endemic disease control. In addition to the administrative work for
+the projects, Moses leads the diagnostics component and works closes with Ibrahim on
+contact tracing and Adrian on the epidemiological design and implementation
+
+				  </p>
                 </span>
               ),
             },
@@ -634,13 +729,12 @@ export const Teams20DataSource = {
       {
         name: 'block1',
         className: 'block',
-        md: 8,
+        md: 24,
         xs: 24,
         image: {
           name: 'image',
           className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+          children: teamAdrianImg,
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -653,7 +747,7 @@ export const Teams20DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p>Mark Bronsvoort</p>
+                        <p>Dr. Adrian Muwonge</p>
                       </span>
                     </span>
                   </span>
@@ -666,19 +760,33 @@ export const Teams20DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>Roslin institute</p>
+                    <p><strong>Principle investigator | Chancellor’s fellow (Assistant Professor) Roslin institute</strong></p>
                   </span>
                 </span>
               ),
             },
             {
               name: 'content1',
-              className: 'teams2-content',
+              className: '',
               children: (
                 <span>
                   <span>
                     <span>
-                      <p>Design and disease dynamics Modelling</p>
+                      <p>
+Dr. Adrian Muwonge is the Principle investigator at the University of Edinburgh, he is a
+Chancellor’s fellow (Assistant Professor) in the areas of digital one health. Adrian supports
+Stakeholders Technology Contact tracing Analysis
+Consultation Feedback
+Design &
+Development
+Recruit Test Analyze
+& feedback
+capacity building that targets ministries in Uganda, Kenya and Malawi through his role as the
+deputy director of Fleming fund fellowships at UoE. Adrian and Moses have worked in various
+infectious disease projects for twelve years. He leads the epidemiological design and
+implementation of THEA-C19 and serves as the point of contact for the funders
+
+					  </p>
                     </span>
                   </span>
                 </span>
@@ -690,13 +798,12 @@ export const Teams20DataSource = {
       {
         name: 'block2',
         className: 'block',
-        md: 8,
+        md: 24,
         xs: 24,
         image: {
           name: 'image',
           className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+          children: teamPlaceholderImg,
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -709,7 +816,7 @@ export const Teams20DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p>Thibaud Porphyre</p>
+                        <p>Mr. Mugerwa Ibrahim</p>
                       </span>
                     </span>
                   </span>
@@ -721,16 +828,22 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <p>Roslin institute</p>
+                  <p><strong>Co-investigator | COVID-19 incident management team at the Ministry of Health, Uganda</strong></p>
                 </span>
               ),
             },
             {
               name: 'content1',
-              className: 'teams2-content',
+              className: '',
               children: (
                 <span>
-                  <p>Design and disease dynamics Modelling</p>
+                  <p>
+		Mr. Mugerwa Ibrahim is a co-investigator based at the Ministry of Health. As a member of
+the COVID-19 incident management team in charge of the diagnostics pillar, he leads the
+contact tracing in close collaboration with Moses and Adrian on diagnostics and
+epidemiological design respectively.		  
+				  
+				  </p>
                 </span>
               ),
             },
@@ -740,13 +853,12 @@ export const Teams20DataSource = {
       {
         name: 'block3',
         className: 'block',
-        md: 8,
+        md: 24,
         xs: 24,
         image: {
           name: 'image',
           className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+          children: teamErisaImg,
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -756,7 +868,7 @@ export const Teams20DataSource = {
               className: 'teams2-title',
               children: (
                 <span>
-                  <p>Emmanuel Ssebaggala</p>
+                  <p>Dr. Erisa Mwaka</p>
                 </span>
               ),
             },
@@ -765,16 +877,22 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <p>Bodastage Solutions Limited</p>
+                  <p><strong>Associate Professor of Anatomy and a consultant orthopaedic</strong></p>
                 </span>
               ),
             },
             {
               name: 'content1',
-              className: 'teams2-content',
+              className: '',
               children: (
                 <span>
-                  <p>Technology Partner</p>
+                  <p>
+Dr. Erisa Mwaka is the lead on the ethics of developing and deployment of digital technology
+for this projects. He is an Associate Professor of Anatomy and a consultant orthopaedic. He
+chairs an Institutional ethical review board at the college of Health Sciences and a member
+of the ethics team at the Uganda National council of Science and Technology. His works closes
+with Christine who leads the social anthropological components of this project
+				  </p>
                 </span>
               ),
             },
@@ -784,13 +902,12 @@ export const Teams20DataSource = {
       {
         name: 'block4',
         className: 'block',
-        md: 8,
+        md: 24,
         xs: 24,
         image: {
           name: 'image',
           className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+          children: teamChristineImg,
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -800,7 +917,7 @@ export const Teams20DataSource = {
               className: 'teams2-title',
               children: (
                 <span>
-                  <p>Ibrahim Mugerwa</p>
+                  <p>Dr. Christine Mpyangu</p>
                 </span>
               ),
             },
@@ -813,7 +930,7 @@ export const Teams20DataSource = {
                     <span>
                       <span>
                         <span>
-                          <p>Ministry of Health Uganda</p>
+                          <p><strong>Lead of the social anthropological aspects</strong></p>
                         </span>
                       </span>
                     </span>
@@ -823,10 +940,15 @@ export const Teams20DataSource = {
             },
             {
               name: 'content1',
-              className: 'teams2-content',
+              className: '',
               children: (
                 <span>
-                  <p>COVID-19 Testing</p>
+                  <p>
+Dr. Christine Mpyangu is the lead of the social anthropological aspects of digital technology
+uptake for this project, she also convenes the consultative activities to generate expert
+opinion from the haulage sector, legal, roads and transport, software engineers and civil
+society.
+				  </p>
                 </span>
               ),
             },
@@ -836,13 +958,12 @@ export const Teams20DataSource = {
       {
         name: 'block5',
         className: 'block',
-        md: 8,
+        md: 24,
         xs: 24,
         image: {
           name: 'image',
           className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+          children: teamEmmanuelImg,
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -852,7 +973,7 @@ export const Teams20DataSource = {
               className: 'teams2-title',
               children: (
                 <span>
-                  <p>TBC</p>
+                  <p>Eng. Emmanuel R Ssebaggala</p>
                 </span>
               ),
             },
@@ -861,78 +982,95 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <p>Ministry of Transport of Uganda</p>
+                  <p><strong>Lead for technology development</strong></p>
                 </span>
               ),
             },
             {
               name: 'content1',
-              className: 'teams2-content',
+              className: '',
               children: (
                 <span>
-                  <p>Haulage network</p>
+                  <p>
+Eng. Emmanuel R Ssebaggala leads the technology development for this project, he is the
+founder and CEO of Bodastage Solutions. They are developing the digital contact tracing tools
+with feedback from consultative meetings conducted by Drs Christine and Erisa. He works
+closely with Prof. Aggelos Kiayias the Chair of Cyber Security and Internet security at the
+School of Informatics at the University of Edinburgh. Prof. Aggelos provide expert input on
+how we develop a secure digital tool to protect data generation and transmission as part of
+contact tracing.
+				  </p>
                 </span>
               ),
             },
           ],
         },
       },
-      //{
-      //  name: 'block6',
-      //  className: 'block',
-      //  md: 8,
-      //  xs: 24,
-      //  image: {
-      //    name: 'image',
-      //    className: 'teams2-image',
-      //    children:
-      //      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
-      //  },
-      //  titleWrapper: {
-      //    className: 'teams2-textWrapper',
-      //    children: [
-      //      { name: 'title', className: 'teams2-title', children: '叶秀英' },
-      //      {
-      //        name: 'content',
-      //        className: 'teams2-job',
-      //        children: '公司+职位 信息暂缺',
-      //      },
-      //      {
-      //        name: 'content1',
-      //        className: 'teams2-content',
-      //        children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
-      //      },
-      //    ],
-      //  },
-      //},
-      //{
-      // name: 'block7',
-      // className: 'block',
-      // md: 8,
-      // xs: 24,
-      // image: {
-      //   name: 'image',
-      //   className: 'teams2-image',
-      //   children:
-      //     'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
-      // },
-      // titleWrapper: {
-      //   className: 'teams2-textWrapper',
-      //   children: [
-      //     { name: 'title', className: 'teams2-title', children: '韩勇' },
-      //     {
-      //       name: 'content',
-      //       className: 'teams2-job',
-      //       children: '公司+职位 信息暂缺',
-      //     },
-      //     {
-      //       name: 'content1',
-      //       className: 'teams2-content',
-      //       children: '语雀是一款优雅高效的在线文档编辑与协同工具。',
-      //     },
-      //   ],
-      // },
-      //},
+      {
+        name: 'block6',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: teamMarkImg,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            { name: 'title', className: 'teams2-title', children: 'Prof. Mark Bronsvoort' },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (<strong>Epidemiology and Risk assessment at the Roslin Institute</strong>),
+            },
+            {
+              name: 'content1',
+              //className: 'teams2-content',
+			  className: '',
+              children: (<p>
+Prof. Mark Bronsvoort is a chair of Epidemiology and Risk assessment at the Roslin Institute,
+University of Edinburgh, he together with Dr. Thibaud Porphyre a mathematical modeller will
+support the data analysis component of this project. Beyond the intelligence built within the
+digital contact tracing, data will be analysed to make inferences on individual risk and the
+drivers of that risk. They leverage on experience supporting mathematical modelling to
+support COVID-19 management for UK specifically Scotland.
+			  </p>),
+            },
+          ],
+        },
+      },
+      {
+       name: 'block7',
+       className: 'block',
+       md: 24,
+       xs: 24,
+       image: {
+         name: 'image',
+         className: 'teams2-image',
+         children: teamEmmaImg,
+       },
+       titleWrapper: {
+         className: 'teams2-textWrapper',
+         children: [
+           { name: 'title', className: 'teams2-title', children: 'Ms Emma Nabunya' },
+           {
+             name: 'content',
+             className: 'teams2-job',
+             children: (<strong>Administrative Coordinator</strong>),
+           },
+           {
+             name: 'content1',
+             className: '',
+             children: (<p>Ms Emma Nabunya is employed as the administrative coordinator for all the pillars of this i.e.
+diagnostics, contact tracing, epidemiology and design, technology development and
+sociological components. Ms Doreen Nabasirye is the research assistant and coordinates
+activities within ministry of health in liaison with Ibrahim</p>),
+           },
+         ],
+       },
+      },
       //{
       //  name: 'block8',
       //  className: 'block',
@@ -1286,17 +1424,6 @@ export const Footer10DataSource = {
         title: { children: 'Resources' },
         childWrapper: {
           children: [
-            //{
-            //  name: 'link0',
-            //  href: '#',
-            //  children: (
-            //    <span>
-            //      <span>
-            //        <p>Publications</p>
-            //      </span>
-            //    </span>
-            //  ),
-            //},
             { name: 'link1', href: 'https://github.com/project-thea/', children: 'Github' },
           ],
         },
@@ -1357,7 +1484,7 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        <span>© 2020 Project-THEA.&nbsp;All Rights Reserved</span>
+        <span>© 2021 Project-THEA.&nbsp;All Rights Reserved</span>
       </span>
     ),
   },
