@@ -15,211 +15,15 @@ import UKRILogo from '../images/ukri_logo.png';
 import mowtLogo from '../images/mowt_logo.png';
 import { AndroidOutlined, LinkOutlined } from '@ant-design/icons';
 import pillarsImg from '../images/pillars.png';
-import teamJolobaImg from '../images/team-moses-joloba.png';
-import teamAdrianImg from '../images/team-adrian-muwonge.png';
-import teamMarkImg from '../images/team-bronsvoort.png';
-import teamEmmaImg from '../images/team-emma.png';
-import teamChristineImg from '../images/team-christine.jpeg';
-import teamErisaImg from '../images/team-erisa.jpeg';
-import teamEmmanuelImg from '../images/team-emmanuel.png';
-import teamPlaceholderImg from '../images/placeholder.png';
-import teamIbrahimImg from '../images/team-ibrahim.png';
+import imgTeam1 from '../images/first_consultative_delegates.jpg';
+import imgPoE1 from '../images/poe_visit_1.png';
 
-export const Nav30DataSource = {
-  wrapper: { className: 'header3 home-page-wrapper' },
-  page: { className: 'home-page' },
-  logo: {
-    className: 'header3-logo',
-	 children: logoImg
-  },
-  Menu: {
-    className: 'header3-menu',
-    children: [
-      {
-        name: 'item0',
-        className: 'header3-item',
-        children: {
-          href: '/',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>Home</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ]
-        },
-
-      },
-      {
-        name: 'item1',
-        className: 'header3-item',
-        children: {
-          href: 'index.html#Feature1_0',
-		  href: 'about.html',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>About THEA-C19</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-	  subItem: [
-		{
-		  children: {
-			href: 'pillars.html',
-			children: [
-				{
-				  children: (
-					<span>
-					  <p>Pillars</p>
-					</span>
-				  ),
-				  name: 'text',
-				},
-			],
-		  },
-		  name: 'text',
-		},
-		{
-		  children: {
-			href: 'team.html',
-			children: [
-				{
-				  children: (
-					<span>
-					  <p>Team</p>
-					</span>
-				  ),
-				  name: 'text',
-				},
-			],
-		  },
-		  name: 'text',
-		},
-		{
-		  children: {
-			href: 'progress.html',
-			children: [
-				{
-				  children: (
-					<span>
-					  <p>Progress</p>
-					</span>
-				  ),
-				  name: 'text',
-				},
-			],
-		  },
-		  name: 'text',
-		},
-	  ]
-      },
-      {
-        name: 'item2',
-        className: 'header3-item',
-        children: {
-          href: '#Content12_0',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p>Partners</p>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item3',
-        className: 'header3-item',
-        children: {
-          href: '#Content12_1',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p>Funders</p>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item4',
-        className: 'header3-item',
-        children: {
-          href: 'https://github.com/project-thea/',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>Github</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item5',
-        className: 'header3-item',
-        children: {
-          href: 'community-engagement.html',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>Community Engagement</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-    ],
-  },
-  mobileMenu: { className: 'header3-mobile-menu' },
-};
 export const Banner50DataSource = {
   wrapper: { className: 'home-page-wrapper banner5' },
   page: { className: 'home-page banner5-page' },
   childWrapper: {
     className: 'banner5-title-wrapper',
     children: [
-      //{
-      //  name: 'title',
-      //  children: (
-      //    <span>
-      //      <p>Project THEA</p>
-      //    </span>
-      //  ),
-      //  className: 'banner5-title',
-      //},
       {
         name: 'explain',
         className: 'banner5-explain',
@@ -233,24 +37,7 @@ export const Banner50DataSource = {
           </span>
         ),
       },
-      //{
-      //  name: 'content',
-      //  className: 'banner5-content',
-      //  children: (
-      //    <span>
-      //      <span>
-      //        <span>
-      //          <span>
-      //            <p>
-      //              An open source pandemic modelling platform using trucking
-      //              data
-      //            </p>
-      //          </span>
-      //        </span>
-      //      </span>
-      //    </span>
-      //  ),
-      //},
+ 
 		{
         name: 'button',
         className: 'banner5-button-wrapper',
@@ -579,7 +366,7 @@ export const Teams20DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>Team</p>
+            <p>Blog</p>
           </span>
         ),
       },
@@ -597,7 +384,7 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: teamJolobaImg
+          children: null
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -609,7 +396,7 @@ export const Teams20DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>Prof. Moses Joloba</p>
+                      <p>Consultating stakeholders</p>
                     </span>
                   </span>
                 </span>
@@ -620,7 +407,7 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <p><strong>Principle investigator | Dean of the School of Biomedical Sciences Makerere University</strong></p>
+                  <p><strong>August 2021</strong></p>
                 </span>
               ),
             },
@@ -630,15 +417,19 @@ export const Teams20DataSource = {
               children: (
                 <span>
                   <p>
-Prof. Moses Joloba is the Principle investigator at Makerere University, in his capacity as Dean
-of the School of Biomedical Sciences at the College of Health Sciences, he leads the molecular
-laboratory which is playing a key role in national COVID-19 diagnostics as well as serosurveillance
-surveys to investigate the rates of community transmission. He also advises the
-MOH on pandemic and endemic disease control. In addition to the administrative work for
-the projects, Moses leads the diagnostics component and works closes with Ibrahim on
-contact tracing and Adrian on the epidemiological design and implementation
-
+The THEA team organized a stakeholder’s workshop that brought together experts from different fields to share knowledge and experiences regarding the implementation, the ethical and legal implications of using a mobile surveillance tool. This was followed by several consultative meetings with key players in the haulage sector and officials in the Ministry of Health (Uganda). This way, we develop technology that can respond to the needs of the community (truck drivers) and support public health contact tracing. From these interactions, we have been able to get more ideas that necessitated modifications to the tool to appeal to the different stakeholders.
 				  </p>
+				  <br />
+				  <p>
+				  <img src={imgTeam1} width="100%"/> <br />
+				  <span style={{fontStyle: 'italic'}}>
+				  First consultative meeting held at Imperial Royal hotel on 17th August 2021. We had a wide range of expertise from the legal, ethics, socio-anthropology, public health, information technology, haulage sector and academia
+				  </span>
+				  </p>
+				  <br />
+				  <p>
+These meetings highlighted some challenges, which meant that the THEA-C19 team had to engage further with the primary stakeholders via the National Logistics Platform. We appreciate that this will be an ongoing consultative process. However, this has taken a little more time than anticipated, getting all on board to appreciate this great innovation. Consequently, we are still in the consultation here but have broadened this remit to accommodate the diversity of views and mandates.
+					</p>
                 </span>
               ),
             },
@@ -653,7 +444,7 @@ contact tracing and Adrian on the epidemiological design and implementation
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: teamAdrianImg,
+          children: null,
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -666,7 +457,7 @@ contact tracing and Adrian on the epidemiological design and implementation
                   <span>
                     <span>
                       <span>
-                        <p>Dr. Adrian Muwonge</p>
+                        <p>Inspecting Ports of entry and exit</p>
                       </span>
                     </span>
                   </span>
@@ -679,7 +470,7 @@ contact tracing and Adrian on the epidemiological design and implementation
               children: (
                 <span>
                   <span>
-                    <p><strong>Principle investigator | Chancellor’s fellow (Assistant Professor) Roslin institute</strong></p>
+                    <p><strong>August 2021</strong></p>
                   </span>
                 </span>
               ),
@@ -692,18 +483,16 @@ contact tracing and Adrian on the epidemiological design and implementation
                   <span>
                     <span>
                       <p>
-Dr. Adrian Muwonge is the Principle investigator at the University of Edinburgh, he is a
-Chancellor’s fellow (Assistant Professor) in the areas of digital one health. Adrian supports
-Stakeholders Technology Contact tracing Analysis
-Consultation Feedback
-Design &
-Development
-Recruit Test Analyze
-& feedback
-capacity building that targets ministries in Uganda, Kenya and Malawi through his role as the
-deputy director of Fleming fund fellowships at UoE. Adrian and Moses have worked in various
-infectious disease projects for twelve years. He leads the epidemiological design and
-implementation of THEA-C19 and serves as the point of contact for the funders
+In order to understand the complexity of the process involved in crossing Uganda’s frontiers, we visited POEs, including Malaba and Elegu. We held meetings with the Ministry of Health Port health, District officials and the private laboratories mandated to carry out COVID-19 diagnostics in Uganda. This visit allowed us to map the process that THEA-C19 would augment.
+					  </p>
+					  
+					  <p>
+					  <img src={imgPoE1} /> <br />
+					  <span style={{fontStyle: 'italic'}}>
+					  THEA-C19 team visiting POEs, these include Mutukula, Mpondwe, Elegu and Malaba. The photos were taken at Mutukula and Mpondwe
+					  </span>
+
+
 
 					  </p>
                     </span>
@@ -722,7 +511,7 @@ implementation of THEA-C19 and serves as the point of contact for the funders
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: teamIbrahimImg,
+          children: null,
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -735,7 +524,7 @@ implementation of THEA-C19 and serves as the point of contact for the funders
                   <span>
                     <span>
                       <span>
-                        <p>Mr. Mugerwa Ibrahim</p>
+                        <p>Awareness and sensitization campaign </p>
                       </span>
                     </span>
                   </span>
@@ -747,7 +536,7 @@ implementation of THEA-C19 and serves as the point of contact for the funders
               className: 'teams2-job',
               children: (
                 <span>
-                  <p><strong>Co-investigator | COVID-19 incident management team at the Ministry of Health, Uganda</strong></p>
+                  <p><strong>September-November 2021</strong></p>
                 </span>
               ),
             },
@@ -757,10 +546,9 @@ implementation of THEA-C19 and serves as the point of contact for the funders
               children: (
                 <span>
                   <p>
-		Mr. Mugerwa Ibrahim is a co-investigator based at the Ministry of Health. As a member of
-the COVID-19 incident management team in charge of the diagnostics pillar, he leads the
-contact tracing in close collaboration with Moses and Adrian on diagnostics and
-epidemiological design respectively.		  
+		In order to engage the truck drivers effectively, there was a need to create awareness about what-were are doing, why -we are doing this, and how the drivers and their sector benefits link https://project-thea.org/resources.html 
+This was done by talking to truck drivers at their workstations, understanding their fears and concerns but importantly, what utility they wanted from the digital tool. We have carried out such campaigns at Nalukolongo parking yard and at Mukwano industries ltd http://www.mukwano.com
+
 				  
 				  </p>
                 </span>
@@ -777,7 +565,7 @@ epidemiological design respectively.
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: teamErisaImg,
+          children: null,
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -787,7 +575,7 @@ epidemiological design respectively.
               className: 'teams2-title',
               children: (
                 <span>
-                  <p>Dr. Erisa Mwaka</p>
+                  <p>Supporting the COVID-19 vaccination campaign</p>
                 </span>
               ),
             },
@@ -796,7 +584,7 @@ epidemiological design respectively.
               className: 'teams2-job',
               children: (
                 <span>
-                  <p><strong>Associate Professor of Anatomy and a consultant orthopaedic</strong></p>
+                  <p><strong>November and December 2021</strong></p>
                 </span>
               ),
             },
@@ -806,11 +594,12 @@ epidemiological design respectively.
               children: (
                 <span>
                   <p>
-Dr. Erisa Mwaka is the lead on the ethics of developing and deployment of digital technology
-for this projects. He is an Associate Professor of Anatomy and a consultant orthopaedic. He
-chairs an Institutional ethical review board at the college of Health Sciences and a member
-of the ethics team at the Uganda National council of Science and Technology. His works closes
-with Christine who leads the social anthropological components of this project
+Vaccination is a critical tool for the control of COVID-19, our engagement with truck drivers revealed that they were not keen on lining up with the general public as this took a lot of time which they did not have given their routine. This is why few of them had been vaccinated; we then requested the Ministry of Health to conduct a mobile vaccination drive to bring this service directly to the truck drivers. This would allow us to contribute to rapid control of this disease and recruit drivers for the trial. We are glad to report that these efforts have allowed the vaccination of 1800 drivers and their close relations to date. We anticipate extending this to various POEs would help vaccinate up to 10,000.
+				  </p> <br />
+				  <p>
+				  <span style={{fontStyle: 'italic'}}>
+				  Vaccination campaign supported by THEA-C19 project which has registered 1800 vaccination, 70% being the first jab. These activities were made possible by the ministry of health via the Kampala city authority health unit. The photos show enthusiastic drivers and their close families being vaccinated.
+				  </span>
 				  </p>
                 </span>
               ),
@@ -826,7 +615,7 @@ with Christine who leads the social anthropological components of this project
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: teamChristineImg,
+          children: null,
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -836,7 +625,7 @@ with Christine who leads the social anthropological components of this project
               className: 'teams2-title',
               children: (
                 <span>
-                  <p>Dr. Christine Mpyangu</p>
+                  <p>Training staff at POEs and Laboratories</p>
                 </span>
               ),
             },
@@ -849,7 +638,7 @@ with Christine who leads the social anthropological components of this project
                     <span>
                       <span>
                         <span>
-                          <p><strong>Lead of the social anthropological aspects</strong></p>
+                          <p><strong>December 2021</strong></p>
                         </span>
                       </span>
                     </span>
@@ -863,10 +652,13 @@ with Christine who leads the social anthropological components of this project
               children: (
                 <span>
                   <p>
-Dr. Christine Mpyangu is the lead of the social anthropological aspects of digital technology
-uptake for this project, she also convenes the consultative activities to generate expert
-opinion from the haulage sector, legal, roads and transport, software engineers and civil
-society.
+Together with the technical team at MoH, the THEA team visited Malaba and Elegu POEs to train the port staff and laboratory personnel. The personnel were trained to help drivers install the mobile application. They were trained on how to respond to drivers' questions and ensure informed consent to participate. We also provide a troubleshooting guideline with solutions for issues that could arise during the installation and enrolment onto the system. Such issues included no smartphone, an older android version, a driver having a cracked screen, antagonistic phone settings. We also conducted a practical session where the trained personnel would try to recruit a driver onto the system to demonstrate the data flow. These visits allowed the team to appreciate the differences in process at each POE, for example, internet connectivity issues at Mpondwe, low traffic at Mutukula and unregistered drivers on RECDTS at Elegu.
+				  </p>
+				  <br />
+				  <p>
+				  <span style={{fontStyle: 'italic'}}>
+The THEA-C19 and MOH technical team training laboratory personnel on how to use the application at Mpondwe border.
+</span>
 				  </p>
                 </span>
               ),
@@ -882,7 +674,7 @@ society.
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: teamEmmanuelImg,
+          children: null,
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -892,7 +684,7 @@ society.
               className: 'teams2-title',
               children: (
                 <span>
-                  <p>Eng. Emmanuel R Ssebaggala</p>
+                  <p>Way forward to 2022</p>
                 </span>
               ),
             },
@@ -901,7 +693,7 @@ society.
               className: 'teams2-job',
               children: (
                 <span>
-                  <p><strong>Lead for technology development</strong></p>
+                  <p><strong></strong></p>
                 </span>
               ),
             },
@@ -911,13 +703,7 @@ society.
               children: (
                 <span>
                   <p>
-Eng. Emmanuel R Ssebaggala leads the technology development for this project, he is the
-founder and CEO of Bodastage Solutions. They are developing the digital contact tracing tools
-with feedback from consultative meetings conducted by Drs Christine and Erisa. He works
-closely with Prof. Aggelos Kiayias the Chair of Cyber Security and Internet security at the
-School of Informatics at the University of Edinburgh. Prof. Aggelos provide expert input on
-how we develop a secure digital tool to protect data generation and transmission as part of
-contact tracing.
+As part of our trial of the digital tool, we have started onboarding truck drivers onto the tool and have more than 100 on the system so far. This trial allows checking that all the systems are ready to go. We expect to start a full driver recruitment drive in January 2022, and this will be done for eight months with a target of 30,000 drivers on the system
 				  </p>
                 </span>
               ),
@@ -925,99 +711,6 @@ contact tracing.
           ],
         },
       },
-      {
-        name: 'block6',
-        className: 'block',
-        md: 24,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children: teamMarkImg,
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            { name: 'title', className: 'teams2-title', children: 'Prof. Mark Bronsvoort' },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (<strong>Epidemiology and Risk assessment at the Roslin Institute</strong>),
-            },
-            {
-              name: 'content1',
-              //className: 'teams2-content',
-			  className: '',
-              children: (<p>
-Prof. Mark Bronsvoort is a chair of Epidemiology and Risk assessment at the Roslin Institute,
-University of Edinburgh, he together with Dr. Thibaud Porphyre a mathematical modeller will
-support the data analysis component of this project. Beyond the intelligence built within the
-digital contact tracing, data will be analysed to make inferences on individual risk and the
-drivers of that risk. They leverage on experience supporting mathematical modelling to
-support COVID-19 management for UK specifically Scotland.
-			  </p>),
-            },
-          ],
-        },
-      },
-      {
-       name: 'block7',
-       className: 'block',
-       md: 24,
-       xs: 24,
-       image: {
-         name: 'image',
-         className: 'teams2-image',
-         children: teamEmmaImg,
-       },
-       titleWrapper: {
-         className: 'teams2-textWrapper',
-         children: [
-           { name: 'title', className: 'teams2-title', children: 'Ms Emma Nabunya' },
-           {
-             name: 'content',
-             className: 'teams2-job',
-             children: (<strong>Administrative Coordinator</strong>),
-           },
-           {
-             name: 'content1',
-             className: '',
-             children: (<p>Ms Emma Nabunya is employed as the administrative coordinator for all the pillars of this i.e.
-diagnostics, contact tracing, epidemiology and design, technology development and
-sociological components. Ms Doreen Nabasirye is the research assistant and coordinates
-activities within ministry of health in liaison with Ibrahim</p>),
-           },
-         ],
-       },
-      },
-      //{
-      //  name: 'block8',
-      //  className: 'block',
-      //  md: 8,
-      //  xs: 24,
-      //  image: {
-      //    name: 'image',
-      //    className: 'teams2-image',
-      //    children:
-      //      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
-      //  },
-      //  titleWrapper: {
-      //    className: 'teams2-textWrapper',
-      //    children: [
-      //      { name: 'title', className: 'teams2-title', children: '叶秀英' },
-      //      {
-      //        name: 'content',
-      //        className: 'teams2-job',
-      //        children: '公司+职位 信息暂缺',
-      //      },
-      //      {
-      //        name: 'content1',
-      //        className: 'teams2-content',
-      //        children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
-      //      },
-      //    ],
-      //  },
-      // },
     ],
   },
 };
@@ -1163,7 +856,48 @@ export const Content121DataSource = {
 			width: 200
           },
         },
-      }
+      },
+      //{
+      //  name: 'block3',
+      //  className: 'block',
+      //  md: 6,
+      //  xs: 24,
+		//href: 'https://www.mak.ac.ug/',
+      //  children: {
+      //    wrapper: { className: 'block-content' },
+      //    img: {
+      //      children: mukLogo,
+		//	width: 160
+      //    },
+      //  },
+      //},
+      //{
+      //  name: 'block4',
+      //  className: 'block',
+      //  md: 6,
+      //  xs: 24,
+		//href: 'https://www.ed.ac.uk/informatics/blockchain',
+      //  children: {
+      //    wrapper: { className: 'block-content' },
+      //    img: {
+      //      children: EdinInfoLogo,
+		//	width: 250
+      //    },
+      //  },
+      //},
+      //{
+      //  name: 'block5',
+      //  className: 'block',
+      //  md: 8,
+      //  xs: 24,
+      //  children: {
+      //    wrapper: { className: 'block-content' },
+      //    img: {
+      //      children:
+      //        'https://gw.alipayobjects.com/zos/rmsportal/ftBIiyJcCHpHEioRvPsV.svg',
+      //    },
+      //  },
+      //},
     ],
   },
 };

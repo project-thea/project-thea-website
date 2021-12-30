@@ -195,12 +195,12 @@ export const Nav30DataSource = {
         name: 'item4',
         className: 'header3-item',
         children: {
-          href: 'https://github.com/project-thea/',
+          href: 'blog.html',
           children: [
             {
               children: (
                 <span>
-                  <p>Github</p>
+                  <p>Blog</p>
                 </span>
               ),
               name: 'text',

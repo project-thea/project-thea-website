@@ -15,32 +15,87 @@ class ProgresTimeline extends React.PureComponent {
         <Col key={i.toString()}>
           <Row>
             <Col span={24}>
-				<Timeline>
+				<Timeline mode="left">
 					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  <Text italic>13th December 2021 - 14th December 2021</Text><br />
-					  POE visit this week Elegu Malaba
+					  <Text italic>December 2021</Text><br />
+					  Training at ports of entry and exit
 					</Timeline.Item>
 
 					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					<Text italic>29th November 2021</Text><br />Awareness campaign and vaccinations support in Nalukolongo and Mukwano Industries</Timeline.Item>
+					<Text italic>November 2021 - December 2021</Text><br />
+					Community engagement campaign (vaccination and testing)</Timeline.Item>
 
 					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  <Text italic>2nd November 2021</Text><br />
-					  POE visits in November (Mutukula Mpondwe)
+					  <Text italic>October 2021 - November 2021</Text><br />
+					  Awareness and sensitisation of stakeholders
 					</Timeline.Item>
 					
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					<Text italic>1st July 2021</Text><br />
-					Start of POE visits; Malaba and Eleju visited.</Timeline.Item>
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					<Text italic>17th July 2021</Text><br />
-					Virtual meeting with NLP committee two weeks later</Timeline.Item>
 					
 					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  1st July 2021 <br />
+					<Text italic>September 2021 - August 2021</Text><br />
+					Stakeholder engagement meeting with the National Logistic Platform</Timeline.Item>
+					
+					
+					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					<Text italic>August 2021</Text><br />
+					Inspectin of ports of entry and exit</Timeline.Item>
+					
+					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  August 2021 <br />
 					  Stakeholder engagement meeting held on 1st July 2021 at Imperial Royal hotel
 					</Timeline.Item>
+					
+					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  August 2021 <br />
+					  Integration of THEA-C19 platform with National Health Infrastructure
+					</Timeline.Item>
+					
+					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  July 2021 <br />
+					  Ethics approval
+					</Timeline.Item>
+					
+					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  July 2021 <br />
+					  Review and rebuttal for ethical application
+					</Timeline.Item>
+					
+					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  April 2021 <br />
+					  Updates to THEA-C19 DCT
+					</Timeline.Item>
+					
+					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  April 2021 <br />
+					  Ethical approvals application
+					</Timeline.Item>
+					
+					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  March 2021 <br />
+					  Completion of contracts and procurement process
+					</Timeline.Item>
+					
+					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  January 2021 <br />
+					  Update of THEA-C19 prototype
+					</Timeline.Item>
+					
+					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  December 2020 <br />
+					  Administrative approvals from the Ministry of Health
+					</Timeline.Item>
+					
+					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  December 2020 <br />
+					  Inception meeting online
+					</Timeline.Item>
+					
+					<Timeline.Item label="November 2020" >
+					  November 2020 <br />
+					  Project start
+					</Timeline.Item>
+					
 				  </Timeline>
             </Col>
           </Row>
@@ -66,7 +121,7 @@ class ProgresTimeline extends React.PureComponent {
                 type="bottom"
                 key="block"
                 {...dataSource.block}
-                component={Row}
+                //component={Row}
               >
                 { listChildren }
 
