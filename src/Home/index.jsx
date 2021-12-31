@@ -53,6 +53,20 @@ export default class Home extends React.Component {
         });
       }, 500);
     }
+	
+    const script = document.createElement("script");
+
+    script.src = "https://platform.twitter.com/widgets.js";
+    script.async = true;
+
+    document.body.appendChild(script);
+	
+	setTimeout(() => {
+		const twttr = window.twttr
+		twttr.widgets.load()
+	}, 5000);
+
+	
   }
 
   render() {
@@ -81,12 +95,12 @@ export default class Home extends React.Component {
       //  dataSource={Content30DataSource}
       //  isMobile={this.state.isMobile}
       ///>,
-      //<Teams2
-      //  id="Teams2_0"
-      //  key="Teams2_0"
-      //  dataSource={Teams20DataSource}
-      //  isMobile={this.state.isMobile}
-      ///>,
+      <Teams2
+        id="Teams2_0"
+        key="Teams2_0"
+        dataSource={Teams20DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Content12
         id="Content12_0"
         key="Content12_0"

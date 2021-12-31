@@ -16,83 +16,75 @@ class ProgresTimeline extends React.PureComponent {
           <Row>
             <Col span={24}>
 				<Timeline mode="left">
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  <Text italic>December 2021</Text><br />
+					<Timeline.Item label="December 2021"  dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  
 					  Training at ports of entry and exit
 					</Timeline.Item>
 
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					<Text italic>November 2021 - December 2021</Text><br />
+					<Timeline.Item label="November 2021 - December 2021"
+					dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
 					Community engagement campaign (vaccination and testing)</Timeline.Item>
 
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  <Text italic>October 2021 - November 2021</Text><br />
+					<Timeline.Item label="October 2021 - November 2021" dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  
 					  Awareness and sensitisation of stakeholders
 					</Timeline.Item>
 					
 					
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					<Text italic>September 2021 - August 2021</Text><br />
+					<Timeline.Item label="September 2021 - August 2021" dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
 					Stakeholder engagement meeting with the National Logistic Platform</Timeline.Item>
 					
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					<Text italic>August 2021</Text><br />
+					<Timeline.Item label="August 2021" dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
 					Inspectin of ports of entry and exit</Timeline.Item>
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  August 2021 <br />
+					<Timeline.Item >
+					  
 					  Stakeholder engagement meeting held on 1st July 2021 at Imperial Royal hotel
 					</Timeline.Item>
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  August 2021 <br />
+					<Timeline.Item>
+					 
 					  Integration of THEA-C19 platform with National Health Infrastructure
 					</Timeline.Item>
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  July 2021 <br />
+					<Timeline.Item label="July 2021" dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
 					  Ethics approval
 					</Timeline.Item>
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  July 2021 <br />
+					<Timeline.Item>
 					  Review and rebuttal for ethical application
 					</Timeline.Item>
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  April 2021 <br />
+					<Timeline.Item label="April 2021" dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  
 					  Updates to THEA-C19 DCT
 					</Timeline.Item>
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  April 2021 <br />
+					<Timeline.Item>
 					  Ethical approvals application
 					</Timeline.Item>
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  March 2021 <br />
+					<Timeline.Item label="March 2021" dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
 					  Completion of contracts and procurement process
 					</Timeline.Item>
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  January 2021 <br />
+					<Timeline.Item label="January 2021" dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  
 					  Update of THEA-C19 prototype
 					</Timeline.Item>
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  December 2020 <br />
+					<Timeline.Item label="December 2020 " dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  
 					  Administrative approvals from the Ministry of Health
 					</Timeline.Item>
 					
-					<Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					  December 2020 <br />
+					<Timeline.Item >
 					  Inception meeting online
 					</Timeline.Item>
 					
-					<Timeline.Item label="November 2020" >
-					  November 2020 <br />
+					<Timeline.Item label="November 2020" dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
 					  Project start
 					</Timeline.Item>
 					

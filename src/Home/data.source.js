@@ -13,7 +13,11 @@ import EdinInfoLogo from '../images/edinburgh_informatics.png';
 import NIHRLogo from '../images/nihr_logo.png';
 import UKRILogo from '../images/ukri_logo.png';
 import mowtLogo from '../images/mowt_logo.png';
+import mpondwePoEImg from '../images/poe_mpodwe.png';
+import mukwanoImg from '../images/mukwano.png';
+import mukwanoSensImg from '../images/mukwano-sensitisation.png';
 import { AndroidOutlined, LinkOutlined } from '@ant-design/icons';
+
 
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
@@ -573,7 +577,7 @@ export const Teams20DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>Team</p>
+            <p>Blog</p>
           </span>
         ),
       },
@@ -591,11 +595,10 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+          children: mpondwePoEImg,
         },
         titleWrapper: {
-          className: 'teams2-textWrapper',
+          className: 'teams2-textWrapper2',
           children: [
             {
               name: 'title',
@@ -604,7 +607,7 @@ export const Teams20DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>Adrian Muwonge</p>
+                      <p><a href="/blog.html?article=0">Training staff at POEs and Laboratories</a></p>
                     </span>
                   </span>
                 </span>
@@ -615,7 +618,7 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <p>Roslin institute</p>
+                  <p>December, 2021</p>
                 </span>
               ),
             },
@@ -624,7 +627,7 @@ export const Teams20DataSource = {
               className: 'teams2-content',
               children: (
                 <span>
-                  <p>Design and disease dynamics Modelling</p>
+                  <p>Together with the technical team at MoH, the THEA team visited Malaba and Elegu POEs to train the port staff and laboratory personnel. </p>
                 </span>
               ),
             },
@@ -639,11 +642,10 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+          children: mukwanoImg,
         },
         titleWrapper: {
-          className: 'teams2-textWrapper',
+          className: 'teams2-textWrapper2',
           children: [
             {
               name: 'title',
@@ -653,7 +655,7 @@ export const Teams20DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p>Mark Bronsvoort</p>
+                        <p><a href="/blog.html?article=1">Inspecting Ports of entry and exit</a></p>
                       </span>
                     </span>
                   </span>
@@ -666,7 +668,7 @@ export const Teams20DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>Roslin institute</p>
+                    <p>August 2021</p>
                   </span>
                 </span>
               ),
@@ -678,7 +680,7 @@ export const Teams20DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>Design and disease dynamics Modelling</p>
+                      <p>In order to understand the complexity of the process involved in crossing Uganda’s frontiers, we visited POEs, including Malaba and Elegu. </p>
                     </span>
                   </span>
                 </span>
@@ -695,11 +697,10 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+          children: mukwanoSensImg,
         },
         titleWrapper: {
-          className: 'teams2-textWrapper',
+          className: 'teams2-textWrapper2',
           children: [
             {
               name: 'title',
@@ -709,7 +710,7 @@ export const Teams20DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p>Thibaud Porphyre</p>
+                        <p><a href="/blog.html?article=2">Awareness and sensitization campaign</a></p>
                       </span>
                     </span>
                   </span>
@@ -721,7 +722,7 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <p>Roslin institute</p>
+                  <p>September 2021</p>
                 </span>
               ),
             },
@@ -730,153 +731,14 @@ export const Teams20DataSource = {
               className: 'teams2-content',
               children: (
                 <span>
-                  <p>Design and disease dynamics Modelling</p>
+                  <p>In order to engage the truck drivers effectively, there was a need to create awareness about what-were are doing, why -we are doing this, and how the drivers and their sector </p>
                 </span>
               ),
             },
           ],
         },
       },
-      {
-        name: 'block3',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p>Emmanuel Ssebaggala</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p>Bodastage Solutions Limited</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: (
-                <span>
-                  <p>Technology Partner</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block4',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p>Ibrahim Mugerwa</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span>
-                          <p>Ministry of Health Uganda</p>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: (
-                <span>
-                  <p>COVID-19 Testing</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block5',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p>TBC</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p>Ministry of Transport of Uganda</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: (
-                <span>
-                  <p>Haulage network</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
+ 
       //{
       //  name: 'block6',
       //  className: 'block',
@@ -1260,8 +1122,6 @@ export const Footer10DataSource = {
         className: 'block',
         title: {
           className: 'logo',
-          //children:
-		  //'https://zos.alipayobjects.com/rmsportal/qqaimmXZVSwAhpL.svg',
 		  children: 'Project-THEA'
         },
         childWrapper: {
@@ -1334,17 +1194,22 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              href: 'https://twitter.com/thea_c19',
+              //href: 'https://twitter.com/thea_c19',
+			  href: 'https://twitter.com/thea_c19?ref_src=twsrc%5Etfw',
               name: 'link0',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>Twitter</p>
-                    </span>
-                  </span>
-                </span>
-              ),
+			  className: 'twitter-timeline',
+			  "data-height": 200,
+              //children: (
+              //  <span>
+              //    <span>
+              //      <span>
+              //        <p>
+				//	  <a className="twitter-timeline" href="https://twitter.com/thea_c19?ref_src=twsrc%5Etfw">Tweets by thea_c19</a> 
+				//	  </p>
+              //      </span>
+              //    </span>
+              //  </span>
+              //),
             },
           ],
         },
@@ -1357,7 +1222,7 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        <span>© 2020 Project-THEA.&nbsp;All Rights Reserved</span>
+        <span>© 2022 Project-THEA.&nbsp;All Rights Reserved</span>
       </span>
     ),
   },

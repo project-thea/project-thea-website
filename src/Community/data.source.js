@@ -639,6 +639,7 @@ the projects, Moses leads the diagnostics component and works closes with Ibrahi
 contact tracing and Adrian on the epidemiological design and implementation
 
 				  </p>
+				  
                 </span>
               ),
             },
@@ -1484,7 +1485,7 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        <span>© 2021 Project-THEA.&nbsp;All Rights Reserved</span>
+        <span>© 2022 Project-THEA.&nbsp;All Rights Reserved</span>
       </span>
     ),
   },

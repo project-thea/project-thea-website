@@ -1484,7 +1484,7 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        <span>© 2021 Project-THEA.&nbsp;All Rights Reserved</span>
+        <span>© 2022 Project-THEA.&nbsp;All Rights Reserved</span>
       </span>
     ),
   },

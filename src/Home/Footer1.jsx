@@ -53,6 +53,10 @@ class Footer extends React.Component {
             animation={{ y: '+=30', opacity: 0, type: 'from' }}
             key="copyright"
             {...dataSource.copyrightWrapper}
+			onChange={() => {
+				const twttr = window.twttr
+				twttr.widgets.load()
+			}}
           >
             <div {...dataSource.copyrightPage}>
               <div {...dataSource.copyright}>

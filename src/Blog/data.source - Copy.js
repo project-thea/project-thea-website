@@ -17,9 +17,6 @@ import { AndroidOutlined, LinkOutlined } from '@ant-design/icons';
 import pillarsImg from '../images/pillars.png';
 import imgTeam1 from '../images/first_consultative_delegates.jpg';
 import imgPoE1 from '../images/poe_visit_1.png';
-import imgMpondwe  from '../images/mpondwe_peo.jpeg';
-import imgImmunise from '../images/immunisation.jpeg';
-import impSensitisation from '../images/sensitization.jpeg';
 
 export const Banner50DataSource = {
   wrapper: { className: 'home-page-wrapper banner5' },
@@ -358,331 +355,6 @@ export const Content30DataSource = {
     ],
   },
 };
-export const Teams20DataSource = {
-  wrapper: { className: 'home-page-wrapper teams2-wrapper' },
-  page: { className: 'home-page teams2' },
-  OverPack: { playScale: 0.3, className: '' },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <p>Blog</p>
-          </span>
-        ),
-      },
-    ],
-  },
-  block: {
-    className: 'block-wrapper',
-    gutter: 72,
-    children: [
-      {
-        name: 'block0',
-        className: 'block',
-        md: 24,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children: null
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p><a href="blog.html?article=0">Consultating stakeholders</a></p>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p><strong>August 2021</strong></p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: '',
-              children: (
-                <span>
-                  <p>
-The THEA team organized a stakeholder’s workshop that brought together experts from different fields to share knowledge and experiences regarding the implementation, the ethical and legal implications of using a mobile surveillance tool. Read more...
-				</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block1',
-        className: 'block',
-        md: 24,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children: null,
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p><a href="blog.html?article=1">Inspecting Ports of entry and exit</a></p>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <span>
-                    <p><strong>August 2021</strong></p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: '',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>
-In order to understand the complexity of the process involved in crossing Uganda’s frontiers, we visited POEs, including Malaba and Elegu. Read more ...
-					</p>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block2',
-        className: 'block',
-        md: 24,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children: null,
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p><a href="blog.html?article=3">Awareness and sensitization campaign </a></p>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p><strong>September-November 2021</strong></p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: '',
-              children: (
-                <span>
-                  <p>
-		In order to engage the truck drivers effectively, there was a need to create awareness about what-were are doing, why -we are doing this, and how the drivers and their sector benefits. Read more ...				  
-				  </p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block3',
-        className: 'block',
-        md: 24,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children: null,
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p><a href="blog.html?article=4">Supporting the COVID-19 vaccination campaign</a></p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p><strong>November and December 2021</strong></p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: '',
-              children: (
-                <span>
-                  <p>
-Vaccination is a critical tool for the control of COVID-19, our engagement with truck drivers revealed that they were not keen on lining up with the general public as this took a lot of time which they did not have given their routine. Read more...
-				  </p> 
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block4',
-        className: 'block',
-        md: 24,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children: null,
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p><a href="blog.html?article=0">Training staff at POEs and Laboratories</a></p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span>
-                          <p><strong>December 2021</strong></p>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: '',
-              children: (
-                <span>
-                  <p>
-Together with the technical team at MoH, the THEA team visited Malaba and Elegu POEs to train the port staff and laboratory personnel. Read more...
-				  </p>
-				  
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block5',
-        className: 'block',
-        md: 24,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children: null,
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p><a href="blog.html?article=5">Way forward to 2022</a></p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p><strong></strong></p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: '',
-              children: (
-                <span>
-                  <p>
-As part of our trial of the digital tool, we have started onboarding truck drivers onto the tool and have more than 100 on the system so far. This trial allows checking that all the systems are ready to go. We expect to start a full driver recruitment drive in January 2022, and this will be done for eight months with a target of 30,000 drivers on the system
-				  </p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-    ],
-  },
-};
 export const Articles20DataSource = {
   wrapper: { className: 'home-page-wrapper teams2-wrapper' },
   page: { className: 'home-page teams2' },
@@ -704,67 +376,6 @@ export const Articles20DataSource = {
     className: 'block-wrapper',
     gutter: 72,
     children: [
-      {
-        name: 'block4',
-        className: 'block',
-        md: 24,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children: null,
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p>Training staff at POEs and Laboratories</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span>
-                          <p><strong>December 2021</strong></p>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: '',
-              children: (
-                <span>
-                  <p>
-Together with the technical team at MoH, the THEA team visited Malaba and Elegu POEs to train the port staff and laboratory personnel. The personnel were trained to help drivers install the mobile application. They were trained on how to respond to drivers' questions and ensure informed consent to participate. We also provide a troubleshooting guideline with solutions for issues that could arise during the installation and enrolment onto the system. Such issues included no smartphone, an older android version, a driver having a cracked screen, antagonistic phone settings. We also conducted a practical session where the trained personnel would try to recruit a driver onto the system to demonstrate the data flow. These visits allowed the team to appreciate the differences in process at each POE, for example, internet connectivity issues at Mpondwe, low traffic at Mutukula and unregistered drivers on RECDTS at Elegu.
-				  </p>
-				  <img src={imgMpondwe} width="100%"/> <br />
-				  <br />
-				  
-				  <p>
-				  <span style={{fontStyle: 'italic'}}>
-The THEA-C19 and MOH technical team training laboratory personnel on how to use the application at Mpondwe border.
-</span>
-				  </p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
       {
         name: 'block0',
         className: 'block',
@@ -936,10 +547,10 @@ In order to understand the complexity of the process involved in crossing Uganda
                 <span>
                   <p>
 		In order to engage the truck drivers effectively, there was a need to create awareness about what-were are doing, why -we are doing this, and how the drivers and their sector benefits link https://project-thea.org/resources.html 
-This was done by talking to truck drivers at their workstations, understanding their fears and concerns but importantly, what utility they wanted from the digital tool. We have carried out such campaigns at Nalukolongo parking yard and at <a href="http://www.mukwano.com">Mukwano industries ltd</a>
+This was done by talking to truck drivers at their workstations, understanding their fears and concerns but importantly, what utility they wanted from the digital tool. We have carried out such campaigns at Nalukolongo parking yard and at Mukwano industries ltd http://www.mukwano.com
+
+				  
 				  </p>
-				  <br />
-				  <img src={impSensitisation} width="100%"/>
                 </span>
               ),
             },
@@ -985,7 +596,6 @@ This was done by talking to truck drivers at their workstations, understanding t
                   <p>
 Vaccination is a critical tool for the control of COVID-19, our engagement with truck drivers revealed that they were not keen on lining up with the general public as this took a lot of time which they did not have given their routine. This is why few of them had been vaccinated; we then requested the Ministry of Health to conduct a mobile vaccination drive to bring this service directly to the truck drivers. This would allow us to contribute to rapid control of this disease and recruit drivers for the trial. We are glad to report that these efforts have allowed the vaccination of 1800 drivers and their close relations to date. We anticipate extending this to various POEs would help vaccinate up to 10,000.
 				  </p> <br />
-				  <img src={imgImmunise} width="100%"/>
 				  <p>
 				  <span style={{fontStyle: 'italic'}}>
 				  Vaccination campaign supported by THEA-C19 project which has registered 1800 vaccination, 70% being the first jab. These activities were made possible by the ministry of health via the Kampala city authority health unit. The photos show enthusiastic drivers and their close families being vaccinated.
@@ -997,7 +607,65 @@ Vaccination is a critical tool for the control of COVID-19, our engagement with 
           ],
         },
       },
-
+      {
+        name: 'block4',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>Training staff at POEs and Laboratories</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p><strong>December 2021</strong></p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+Together with the technical team at MoH, the THEA team visited Malaba and Elegu POEs to train the port staff and laboratory personnel. The personnel were trained to help drivers install the mobile application. They were trained on how to respond to drivers' questions and ensure informed consent to participate. We also provide a troubleshooting guideline with solutions for issues that could arise during the installation and enrolment onto the system. Such issues included no smartphone, an older android version, a driver having a cracked screen, antagonistic phone settings. We also conducted a practical session where the trained personnel would try to recruit a driver onto the system to demonstrate the data flow. These visits allowed the team to appreciate the differences in process at each POE, for example, internet connectivity issues at Mpondwe, low traffic at Mutukula and unregistered drivers on RECDTS at Elegu.
+				  </p>
+				  <br />
+				  <p>
+				  <span style={{fontStyle: 'italic'}}>
+The THEA-C19 and MOH technical team training laboratory personnel on how to use the application at Mpondwe border.
+</span>
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
       {
         name: 'block5',
         className: 'block',
@@ -1046,7 +714,6 @@ As part of our trial of the digital tool, we have started onboarding truck drive
     ],
   },
 };
-
 export const Content120DataSource = {
   wrapper: { className: 'home-page-wrapper content12-wrapper' },
   page: { className: 'home-page content12' },
