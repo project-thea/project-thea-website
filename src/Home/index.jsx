@@ -61,10 +61,14 @@ export default class Home extends React.Component {
 
     document.body.appendChild(script);
 	
-	//setTimeout(() => {
-	//	const twttr = window.twttr
-	//	twttr.widgets.load()
-	//}, 5000);
+	setTimeout(() => {
+		try{
+			const twttr = window.twttr
+			twttr.widgets.load();
+		}catch(e){
+			console.log(e);
+		}
+	}, 5000);
 
 	
   }
