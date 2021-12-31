@@ -54,8 +54,11 @@ class Footer extends React.Component {
             key="copyright"
             {...dataSource.copyrightWrapper}
 			onChange={() => {
-				const twttr = window.twttr
-				twttr.widgets.load()
+				setTimeout(() => {
+					const twttr = window.twttr
+					twttr.widgets.load()
+				}, 5000);
+
 			}}
           >
             <div {...dataSource.copyrightPage}>
