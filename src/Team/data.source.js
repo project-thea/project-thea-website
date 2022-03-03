@@ -24,6 +24,7 @@ import teamErisaImg from '../images/team-erisa.jpeg';
 import teamEmmanuelImg from '../images/team-emmanuel.png';
 import teamPlaceholderImg from '../images/placeholder.png';
 import teamIbrahimImg from '../images/team-ibrahim.png';
+import teamAgellosImg from '../images/team-agellos.png';
 
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
@@ -918,6 +919,51 @@ closely with Prof. Aggelos Kiayias the Chair of Cyber Security and Internet secu
 School of Informatics at the University of Edinburgh. Prof. Aggelos provide expert input on
 how we develop a secure digital tool to protect data generation and transmission as part of
 contact tracing.
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+     {
+        name: 'block5',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: teamAgellosImg,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>Dr Aggelos Kiayias</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong>Technology Security and Privacy</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+Aggelos Kiayias FRSE is chair in Cyber Security and Privacy and director of the Blockchain Technology Laboratory at the University of Edinburgh. He is also the Chief Scientist at blockchain technology company IOHK. He works with the technology development team to provide leadership on the security and privacy design aspects.
 				  </p>
                 </span>
               ),
