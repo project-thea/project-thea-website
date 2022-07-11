@@ -71,24 +71,7 @@ export default class Home extends React.Component {
         dataSource={Teams20DataSource}
         isMobile={this.state.isMobile}
       />,
-      //<Content12
-      //  id="Content12_0"
-      //  key="Content12_0"
-      //  dataSource={Content120DataSource}
-      //  isMobile={this.state.isMobile}
-      ///>,
-      //<Content12
-      //  id="Content12_1"
-      //  key="Content12_1"
-      //  dataSource={Content121DataSource}
-      //  isMobile={this.state.isMobile}
-      ///>,
-      //<Content12
-      //  id="Content12_2"
-      //  key="Content12_2"
-      //  dataSource={Content122DataSource}
-      //  isMobile={this.state.isMobile}
-      ///>,
+ 
       <Footer1
         id="Footer1_0"
         key="Footer1_0"

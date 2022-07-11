@@ -16,6 +16,9 @@ import mowtLogo from '../images/mowt_logo.png';
 import mpondwePoEImg from '../images/poe_mpodwe.png';
 import mukwanoImg from '../images/mukwano.png';
 import mukwanoSensImg from '../images/mukwano-sensitisation.png';
+import mukwanoJan2022 from '../images/mukwano_jan_2022.jpeg';
+import malabaFeb2022 from '../images/malaba_feb2022.jpeg';
+import malabaMar2022 from '../images/malabaMarch2022.jpeg';
 import { AndroidOutlined, LinkOutlined } from '@ant-design/icons';
 
 
@@ -587,7 +590,7 @@ export const Teams20DataSource = {
     className: 'block-wrapper',
     gutter: 72,
     children: [
-      {
+	{
         name: 'block0',
         className: 'block',
         md: 8,
@@ -595,7 +598,7 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: mpondwePoEImg,
+          children: malabaMar2022,
         },
         titleWrapper: {
           className: 'teams2-textWrapper2',
@@ -607,7 +610,9 @@ export const Teams20DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p><a href="/blog.html?article=0">Training staff at POEs and Laboratories</a></p>
+                      <span>
+                        <p><a href="/blog.html?article=8">Community outreach at the Malaba</a></p>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -618,7 +623,7 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <p>December, 2021</p>
+                  <p>March 2022</p>
                 </span>
               ),
             },
@@ -627,7 +632,7 @@ export const Teams20DataSource = {
               className: 'teams2-content',
               children: (
                 <span>
-                  <p>Together with the technical team at MoH, the THEA team visited Malaba and Elegu POEs to train the port staff and laboratory personnel. </p>
+                  <p>The THEA team held community sensitisation events about Covid-19 and it's immunisation to educate the community on it's benefits as well as the standard operating procedures.</p>
                 </span>
               ),
             },
@@ -642,7 +647,7 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: mukwanoImg,
+          children: malabaFeb2022,
         },
         titleWrapper: {
           className: 'teams2-textWrapper2',
@@ -654,9 +659,7 @@ export const Teams20DataSource = {
                 <span>
                   <span>
                     <span>
-                      <span>
-                        <p><a href="/blog.html?article=1">Inspecting Ports of entry and exit</a></p>
-                      </span>
+                      <p><a href="/blog.html?article=7">Driver recruitment at the Malaba PoE</a></p>
                     </span>
                   </span>
                 </span>
@@ -667,9 +670,7 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <span>
-                    <p>August 2021</p>
-                  </span>
+                  <p>February, 2022</p>
                 </span>
               ),
             },
@@ -678,11 +679,7 @@ export const Teams20DataSource = {
               className: 'teams2-content',
               children: (
                 <span>
-                  <span>
-                    <span>
-                      <p>In order to understand the complexity of the process involved in crossing Uganda’s frontiers, we visited POEs, including Malaba and Elegu. </p>
-                    </span>
-                  </span>
+                  <p>The THEA team held a three day driver recruitment event at the Malaba point of entry. Training was provided for the recruitment teams at the private labs as well as the port health personel.</p>
                 </span>
               ),
             },
@@ -697,7 +694,7 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: mukwanoSensImg,
+          children: mukwanoJan2022,
         },
         titleWrapper: {
           className: 'teams2-textWrapper2',
@@ -710,7 +707,7 @@ export const Teams20DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p><a href="/blog.html?article=2">Awareness and sensitization campaign</a></p>
+                        <p><a href="/blog.html?article=6">Driver recruitment at Mukwano</a></p>
                       </span>
                     </span>
                   </span>
@@ -722,7 +719,9 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <p>September 2021</p>
+                  <span>
+                    <p>January 2022</p>
+                  </span>
                 </span>
               ),
             },
@@ -731,7 +730,11 @@ export const Teams20DataSource = {
               className: 'teams2-content',
               children: (
                 <span>
-                  <p>In order to engage the truck drivers effectively, there was a need to create awareness about what-were are doing, why -we are doing this, and how the drivers and their sector </p>
+                  <span>
+                    <span>
+                      <p>The THEA team held a one week driver recruitment event at Mukwano Industries truck parking yard.</p>
+                    </span>
+                  </span>
                 </span>
               ),
             },

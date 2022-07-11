@@ -20,6 +20,9 @@ import imgPoE1 from '../images/poe_visit_1.png';
 import imgMpondwe  from '../images/mpondwe_peo.jpeg';
 import imgImmunise from '../images/immunisation.jpeg';
 import impSensitisation from '../images/sensitization.jpeg';
+import mukwanoJan2022 from '../images/mukwano_jan_2022.jpeg';
+import malabaFeb2022 from '../images/malaba_feb2022.jpeg';
+import malabaMar2022 from '../images/malabaMarch2022.jpeg';
 
 export const Banner50DataSource = {
   wrapper: { className: 'home-page-wrapper banner5' },
@@ -680,6 +683,146 @@ As part of our trial of the digital tool, we have started onboarding truck drive
           ],
         },
       },
+      {
+        name: 'block6',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p><a href="blog.html?article=6">Driver recruitment at Mukwano Industries</a></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong>January 2022</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+					The THEA team held a one week driver recruitment event at Mukwano Industries 
+					truck parking yard. At the same time, the team coordinated with the Ministry of Health team 
+					and Kampala City Council to have an immunsation tent to provide Covid-19 immunisation 
+					for the truck drivers and the surrounding community.
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block7',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p><a href="blog.html?article=7">Driver recruitment at the Malaba Kenya-Uganda border point. </a></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong>February 2022</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+					The THEA team held a three day driver recruitment event at the Malaba point of entry.  Training was provided for the 
+					recruitment teams at the private labs as well as the port health personel. 
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p><a href="blog.html?article=8">Community outreach and sensitization  at the Malaba Kenya-Uganda border</a></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong>March 2022</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+					The THEA team held community sensitisation events about Covid-19 and it's immunisation 
+					to educate the community on it's benefits as well as the standard operating procedures.
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
     ],
   },
 };
@@ -1043,6 +1186,166 @@ As part of our trial of the digital tool, we have started onboarding truck drive
           ],
         },
       },
+	  
+      {
+        name: 'block6',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>Driver recruitment at Mukwano Industries</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong></strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+The THEA team held a one week driver recruitment event at Mukwano Industries truck parking yard. At the same time, the team coordinated with the Ministry of Health team and Kampala City Council Authority to have an immunsation tent to provide Covid-19 immunisation for the truck drivers and the surrounding community.
+				  </p>
+<br />
+				  <img src={mukwanoJan2022} width="100%"/>
+				  <p>
+				  <span style={{fontStyle: 'italic'}}>
+				  THEA team explaining how the THEA platform works to truck drivers of Mukwano Industries.
+				  </span>
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+	  
+      {
+        name: 'block7',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>Driver recruitment at the Malaba Kenya-Uganda border point.</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong></strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+The THEA team held a three day driver recruitment event at the Malaba point of entry. Training was provided for the recruitment teams at the private labs as well as the port health personnel.
+				  </p>
+<br />
+				  <img src={malabaFeb2022} width="100%"/>
+				  <p>
+				  <span style={{fontStyle: 'italic'}}>
+				  Malaba Kenya-Uganda Border
+				  </span>
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+	  
+      {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>Community outreach and sensitization at the Malaba Kenya-Uganda border</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong></strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+The THEA team held community sensitisation events about Covid-19 and it's immunisation to educate the community on it's benefits as well as the standard operating procedures.
+				  </p>
+<br />
+				  <img src={malabaMar2022} width="100%"/>
+				  <p>
+				  <span style={{fontStyle: 'italic'}}>
+				  THEA team holding sensitisation sessions with the community.
+				  </span>
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+	  
     ],
   },
 };
