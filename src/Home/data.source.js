@@ -19,6 +19,9 @@ import mukwanoSensImg from '../images/mukwano-sensitisation.png';
 import mukwanoJan2022 from '../images/mukwano_jan_2022.jpeg';
 import malabaFeb2022 from '../images/malaba_feb2022.jpeg';
 import malabaMar2022 from '../images/malabaMarch2022.jpeg';
+import namanve04082022 from '../images/namanve_04082022-2.jpeg';
+import mutukula14092022 from '../images/mutukula_14092022.jpg';
+
 import { AndroidOutlined, LinkOutlined } from '@ant-design/icons';
 
 
@@ -598,7 +601,7 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: malabaMar2022,
+          children: mutukula14092022,
         },
         titleWrapper: {
           className: 'teams2-textWrapper2',
@@ -611,7 +614,7 @@ export const Teams20DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p><a href="/blog.html?article=8">Community outreach at the Malaba</a></p>
+                        <p><a href="/blog.html?article=8">Community outreach at the Mutukula</a></p>
                       </span>
                     </span>
                   </span>
@@ -623,7 +626,7 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <p>March 2022</p>
+                  <p>13<sup>th</sup> September 2022</p>
                 </span>
               ),
             },
@@ -659,7 +662,7 @@ export const Teams20DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p><a href="/blog.html?article=7">Driver recruitment at the Malaba PoE</a></p>
+                      <p><a href="/blog.html?article=11">THEA Workshop at Hotel Africana</a></p>
                     </span>
                   </span>
                 </span>
@@ -670,7 +673,7 @@ export const Teams20DataSource = {
               className: 'teams2-job',
               children: (
                 <span>
-                  <p>February, 2022</p>
+                   <p>26<sup>th</sup> August 2022</p>
                 </span>
               ),
             },
@@ -679,7 +682,7 @@ export const Teams20DataSource = {
               className: 'teams2-content',
               children: (
                 <span>
-                  <p>The THEA team held a three day driver recruitment event at the Malaba point of entry. Training was provided for the recruitment teams at the private labs as well as the port health personel.</p>
+                  <p>The THEA team held a workshop with various stakeholders to review the project and technology.</p>
                 </span>
               ),
             },
@@ -694,7 +697,7 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: mukwanoJan2022,
+          children: namanve04082022,
         },
         titleWrapper: {
           className: 'teams2-textWrapper2',
@@ -707,7 +710,7 @@ export const Teams20DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p><a href="/blog.html?article=6">Driver recruitment at Mukwano</a></p>
+                        <p><a href="/blog.html?article=10">Community engagement at Namanve trucks parking yard</a></p>
                       </span>
                     </span>
                   </span>
@@ -720,7 +723,7 @@ export const Teams20DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>January 2022</p>
+                    <p>4<sup>th</sup> August 2022</p>
                   </span>
                 </span>
               ),
@@ -732,7 +735,7 @@ export const Teams20DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>The THEA team held a one week driver recruitment event at Mukwano Industries truck parking yard.</p>
+                      <p>Community engagement of truck drivers of Namanve parking yard</p>
                     </span>
                   </span>
                 </span>
@@ -741,91 +744,6 @@ export const Teams20DataSource = {
           ],
         },
       },
- 
-      //{
-      //  name: 'block6',
-      //  className: 'block',
-      //  md: 8,
-      //  xs: 24,
-      //  image: {
-      //    name: 'image',
-      //    className: 'teams2-image',
-      //    children:
-      //      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
-      //  },
-      //  titleWrapper: {
-      //    className: 'teams2-textWrapper',
-      //    children: [
-      //      { name: 'title', className: 'teams2-title', children: '叶秀英' },
-      //      {
-      //        name: 'content',
-      //        className: 'teams2-job',
-      //        children: '公司+职位 信息暂缺',
-      //      },
-      //      {
-      //        name: 'content1',
-      //        className: 'teams2-content',
-      //        children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
-      //      },
-      //    ],
-      //  },
-      //},
-      //{
-      // name: 'block7',
-      // className: 'block',
-      // md: 8,
-      // xs: 24,
-      // image: {
-      //   name: 'image',
-      //   className: 'teams2-image',
-      //   children:
-      //     'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
-      // },
-      // titleWrapper: {
-      //   className: 'teams2-textWrapper',
-      //   children: [
-      //     { name: 'title', className: 'teams2-title', children: '韩勇' },
-      //     {
-      //       name: 'content',
-      //       className: 'teams2-job',
-      //       children: '公司+职位 信息暂缺',
-      //     },
-      //     {
-      //       name: 'content1',
-      //       className: 'teams2-content',
-      //       children: '语雀是一款优雅高效的在线文档编辑与协同工具。',
-      //     },
-      //   ],
-      // },
-      //},
-      //{
-      //  name: 'block8',
-      //  className: 'block',
-      //  md: 8,
-      //  xs: 24,
-      //  image: {
-      //    name: 'image',
-      //    className: 'teams2-image',
-      //    children:
-      //      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
-      //  },
-      //  titleWrapper: {
-      //    className: 'teams2-textWrapper',
-      //    children: [
-      //      { name: 'title', className: 'teams2-title', children: '叶秀英' },
-      //      {
-      //        name: 'content',
-      //        className: 'teams2-job',
-      //        children: '公司+职位 信息暂缺',
-      //      },
-      //      {
-      //        name: 'content1',
-      //        className: 'teams2-content',
-      //        children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
-      //      },
-      //    ],
-      //  },
-      // },
     ],
   },
 };

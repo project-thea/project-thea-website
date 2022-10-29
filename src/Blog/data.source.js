@@ -23,6 +23,9 @@ import impSensitisation from '../images/sensitization.jpeg';
 import mukwanoJan2022 from '../images/mukwano_jan_2022.jpeg';
 import malabaFeb2022 from '../images/malaba_feb2022.jpeg';
 import malabaMar2022 from '../images/malabaMarch2022.jpeg';
+import nalukolongo2022 from '../images/nalukolongo_july2022.jpeg';
+import namanve04082022 from '../images/namanve_04082022.jpeg';
+import mutukula14092022 from '../images/mutukula_14092022.jpg';
 
 export const Banner50DataSource = {
   wrapper: { className: 'home-page-wrapper banner5' },
@@ -823,6 +826,240 @@ As part of our trial of the digital tool, we have started onboarding truck drive
           ],
         },
       },
+      {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p><a href="blog.html?article=9">Community engagement at Nalukolongo trucks parking</a></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong>July 2022</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+					The THEA team held community sensitisation events about Covid-19 and it's immunisation 
+					to educate the community on it's benefits as well as the standard operating procedures.
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+	  //10
+      {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p><a href="blog.html?article=10">Community engagement at Namanve trucks parking yard</a></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong>4th August 2022</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+					The THEA team held community sensitisation events about Covid-19 and it's immunisation 
+					to educate the community on it's benefits as well as the standard operating procedures.
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+	  //11
+     {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p><a href="blog.html?article=11">THEA Workshop at Hotel Africana</a></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong>26<sup>th</sup> August 2022</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+					The THEA team held a workshop with various stakeholders to review the project and technology. 
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+	  //12
+     {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p><a href="blog.html?article=12">Community engagement at Mutukula</a></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong>September 2022</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+					The THEA team held community sensitisation events about Covid-19 and it's immunisation 
+					to educate the community on it's benefits as well as the standard operating procedures.
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+	  //13
+     {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p><a href="blog.html?article=13">Some article title</a></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong>27 <sup>th</sup>September 2022</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+					The THEA team held community sensitisation events about Covid-19 and it's immunisation 
+					to educate the community on it's benefits as well as the standard operating procedures.
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+	  
     ],
   },
 };
@@ -1345,7 +1582,212 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
           ],
         },
       },
+      {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>Community engagement at Nalukolongo trucks parking</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong></strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+The THEA team held community sensitisation events about Covid-19 and it's immunisation to educate the community on it's benefits as well as the standard operating procedures.
+				  </p>
+<br />
+				  <img src={nalukolongo2022} width="100%"/>
+				  <p>
+				  <span style={{fontStyle: 'italic'}}>
+				  THEA team holding sensitisation sessions with the community.
+				  </span>
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+     {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>4th August 2022 - Community engagement of truck drivers of Namanve parking yard</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong></strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+				The THEA team had the opportunity to interact with over 200 truck drivers that have organized themselves into an association with the main intention of looking for jobs, but also share experiences and encourage one another in the trade. This team shared their candid experiences with COVID-19,  both on the job and beyond to the communities where they live. We had such an interesting time with this group.
+				  </p>
+<br />
+				  <img src={namanve04082022} width="100%"/>
+				  <p>
+				  <span style={{fontStyle: 'italic'}}>
+				  THEA team holding sensitisation sessions with the community.
+				  </span>
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
 	  
+	  //11
+    {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>26<sup>th</sup> August 2022 - The THEA team held a workshop with various stakeholders to review the project and technology.</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong></strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+				The THEA team held a workshop with various stakeholders to review the project and technology. The group discussed 
+				various challenges related to recruitment and the technology as a whole. Teams from the different points of entry were represented. 
+				
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+	  
+     {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>13<sup>th</sup> September 2022 - Community engagement of truck drivers at Mutukula point of entry</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong></strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+				The THEA team held community sensitisation events about Covid-19 and it's immunisation to educate the community on it's benefits as well as the standard operating procedures.
+				  </p>
+<br />
+				  <img src={mutukula14092022} width="100%"/>
+				  <p>
+				  <span style={{fontStyle: 'italic'}}>
+				  THEA team holding sensitisation sessions with the drivers.
+				  </span>
+				  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
     ],
   },
 };
