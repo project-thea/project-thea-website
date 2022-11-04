@@ -17,7 +17,7 @@ class ProgresTimeline extends React.PureComponent {
             <Col span={24}>
 				<Timeline mode="left">
 				<Timeline.Item label="September 2022"  dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-					Community engagement at Nalukolongo trucks parking
+				Community engagement at Mutukula
 								</Timeline.Item>
 
 				<Timeline.Item label="August 2022" dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
