@@ -16,6 +16,37 @@ class ProgresTimeline extends React.PureComponent {
           <Row>
             <Col span={24}>
 				<Timeline mode="left">
+				<Timeline.Item label="September 2022"  dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					Community engagement at Nalukolongo trucks parking
+								</Timeline.Item>
+
+				<Timeline.Item label="August 2022" dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					Inspectin of ports of entry and exit</Timeline.Item>
+					
+					<Timeline.Item >
+					  
+					  Stakeholder engagement meeting held on 26th August 2020 at Hotel Africana
+					</Timeline.Item>
+				
+
+				<Timeline.Item label="July 2022"  dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					Community engagement at Nalukolongo trucks parking
+								</Timeline.Item>
+				<Timeline.Item label="March 2022"  dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  
+				Community outreach and sensitization at the Malaba Kenya-Uganda border
+						  </Timeline.Item>
+				<Timeline.Item label="February 2022"  dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  
+				Driver recruitment at the Malaba Kenya-Uganda border point.
+						  </Timeline.Item>
+
+				<Timeline.Item label="January 2022"  dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
+					  
+				Driver recruitment at Mukwano Industries
+					</Timeline.Item>
+
+
 					<Timeline.Item label="December 2021"  dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
 					  
 					  Training at ports of entry and exit
