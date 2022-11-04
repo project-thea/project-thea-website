@@ -1,0 +1,14 @@
+- project-thea website,project-thea.org
+- Build and publish github pages for project-thea
+1. yarn run build 
+2. copy privacy policy to dist/privacy.html
+3. copy new images to dist/static/images
+4. cd dist/static/images && git add ./* -f 
+5. git commit -m "Added images"
+6. git push origin master
+7. git checkout master # you can avoid this line if you are in master...
+8. git subtree split --prefix dist -b gh-pages # create a local gh-pages branch containing the splitted output folder
+9. git push -f origin gh-pages:gh-pages # force the push of the gh-pages branch to the remote gh-pages branch at origin
+10. git branch -D gh-pages # delete the local gh-pages because you will need it: ref
+11. Update github > settings > pages > Custom domain
+   project-thea.org
