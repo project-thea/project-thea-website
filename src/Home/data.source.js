@@ -21,6 +21,8 @@ import malabaFeb2022 from '../images/malaba_feb2022.jpeg';
 import malabaMar2022 from '../images/malabaMarch2022.jpeg';
 import namanve04082022 from '../images/namanve_04082022-2.jpeg';
 import mutukula14092022 from '../images/mutukula_14092022.jpg';
+import africana from '../images/africana.jpg';
+
 
 import { AndroidOutlined, LinkOutlined } from '@ant-design/icons';
 
@@ -614,7 +616,9 @@ export const Teams20DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p><a href="/blog.html?article=8">Community outreach at the Mutukula</a></p>
+
+                        <p><a href="/blog.html?article=12">Community outreach at the Mutukula</a></p>
+
                       </span>
                     </span>
                   </span>
@@ -635,7 +639,7 @@ export const Teams20DataSource = {
               className: 'teams2-content',
               children: (
                 <span>
-                  <p>The THEA team held community sensitisation events about Covid-19 and it's immunisation to educate the community on it's benefits as well as the standard operating procedures.</p>
+                  <p>The THEA team held community sensitisation events with the community and truck drivers. Mutukula is approximately 224 kilometers by road, south-west of Kampala, the capital and largest city of Uganda.</p>
                 </span>
               ),
             },
@@ -650,7 +654,7 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children: malabaFeb2022,
+          children: africana,
         },
         titleWrapper: {
           className: 'teams2-textWrapper2',

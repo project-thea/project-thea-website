@@ -26,6 +26,7 @@ import malabaMar2022 from '../images/malabaMarch2022.jpeg';
 import nalukolongo2022 from '../images/nalukolongo_july2022.jpeg';
 import namanve04082022 from '../images/namanve_04082022.jpeg';
 import mutukula14092022 from '../images/mutukula_14092022.jpg';
+import africana from '../images/africana.jpg';
 
 export const Banner50DataSource = {
   wrapper: { className: 'home-page-wrapper banner5' },
@@ -993,7 +994,7 @@ As part of our trial of the digital tool, we have started onboarding truck drive
               className: 'teams2-job',
               children: (
                 <span>
-                  <p><strong>September 2022</strong></p>
+                  <p>13 <sup> th</sup><strong>September 2022</strong></p>
                 </span>
               ),
             },
@@ -1002,64 +1003,20 @@ As part of our trial of the digital tool, we have started onboarding truck drive
               className: '',
               children: (
                 <span>
-                  <p>
-					The THEA team held community sensitisation events about Covid-19 and it's immunisation 
-					to educate the community on it's benefits as well as the standard operating procedures.
-				  </p>
+                  <p>The THEA team held community sensitisation events with the community and truck drivers. Mutukula is approximately 224 kilometers by road, south-west of Kampala, the capital and largest city of Uganda. 
+
+                  </p>
                 </span>
               ),
             },
           ],
         },
       },
-	  //13
-     {
-        name: 'block8',
-        className: 'block',
-        md: 24,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children: null,
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p><a href="blog.html?article=13">Some article title</a></p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p><strong>27 <sup>th</sup>September 2022</strong></p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: '',
-              children: (
-                <span>
-                  <p>
-					The THEA team held community sensitisation events about Covid-19 and it's immunisation 
-					to educate the community on it's benefits as well as the standard operating procedures.
-				  </p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-	  
+	 
+
+       
+
+
     ],
   },
 };
@@ -1707,6 +1664,7 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
               children: (
                 <span>
                   <p>26<sup>th</sup> August 2022 - The THEA team held a workshop with various stakeholders to review the project and technology.</p>
+                 
                 </span>
               ),
             },
@@ -1729,6 +1687,11 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
 				various challenges related to recruitment and the technology as a whole. Teams from the different points of entry were represented. 
 				
 				  </p>
+          <br />
+				  <img src={africana} width="100%"/>
+          <span style={{fontStyle: 'italic'}}>
+				  THEA team holding sensitisation sessions at hotel Africana kampala.
+				  </span>
                 </span>
               ),
             },
@@ -1772,8 +1735,7 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
               className: '',
               children: (
                 <span>
-                  <p>
-				The THEA team held community sensitisation events about Covid-19 and it's immunisation to educate the community on it's benefits as well as the standard operating procedures.
+                  <p> The THEA team held community sensitisation events with the community and truck drivers. Mutukula is approximately 224 kilometers by road, south-west of Kampala, the capital and largest city of Uganda. The town of Mutukula is a border town between Uganda and Tanzania. It is an important border post and major crossing point, for both human and commercial traffic. The border post between both countries merged operations on both sides. Vehicles and passengers clear customs and immigration once, in the country they are entering.
 				  </p>
 <br />
 				  <img src={mutukula14092022} width="100%"/>
@@ -1781,6 +1743,8 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
 				  <span style={{fontStyle: 'italic'}}>
 				  THEA team holding sensitisation sessions with the drivers.
 				  </span>
+				  </p>
+          <p> Most truckers mentioned doing crossborder trips; Uganda to Tanzania, Uganda to Congo but also inland; across the country; depending on where business is; Lira, Arua, all over Uganda.These transport goods ranging from petroleum, to food stuff to other non-perishables.
 				  </p>
                 </span>
               ),
