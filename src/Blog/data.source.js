@@ -854,7 +854,7 @@ As part of our trial of the digital tool, we have started onboarding truck drive
               className: 'teams2-job',
               children: (
                 <span>
-                  <p><strong>July 2022</strong></p>
+                  <p><strong>25<sup>th</sup>July 2022</strong></p>
                 </span>
               ),
             },
@@ -1575,8 +1575,7 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
               className: '',
               children: (
                 <span>
-                  <p>
-The THEA team held community sensitisation events about Covid-19 and it's immunisation to educate the community on it's benefits as well as the standard operating procedures.
+                  <p> 25<sup>th</sup> July 2022 -The THEA team held community sensitisation events about Covid-19 and it's immunisation to educate the community on it's benefits as well as the standard operating procedures.
 				  </p>
 <br />
 				  <img src={nalukolongo2022} width="100%"/>
@@ -1585,12 +1584,16 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
 				  THEA team holding sensitisation sessions with the community.
 				  </span>
 				  </p>
+          <p>The THEA team was led by Dr. Christine Mbabazi Mpyangu and Dr. Lubega Robert managed to sensitize over 80 truck drivers at Nalukolongo truck parking station over COVID-19 and other health related issues. The THEA team was seeking to develop and test a digital contact-tracing tool. The novelty here is in its enhanced privacy using a unique universal identifier (UUID), digital -tracking boundary defined by the road infrastructure and simplicity based on conventional time- stamped GPS. In addition, we examine the ethical and legal context of deploying such a tool.
+				  </p>
                 </span>
               ),
             },
           ],
         },
       },
+
+      ///nalukolgo part end 
      {
         name: 'block8',
         className: 'block',
