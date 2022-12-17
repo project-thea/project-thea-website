@@ -22,6 +22,7 @@ import malabaMar2022 from '../images/malabaMarch2022.jpeg';
 import namanve04082022 from '../images/namanve_04082022-2.jpeg';
 import mutukula14092022 from '../images/mutukula_14092022.jpg';
 import africana from '../images/africana.jpg';
+import handover from '../images/thea-dct-handover.jpeg';
 
 
 import { AndroidOutlined, LinkOutlined } from '@ant-design/icons';
@@ -274,8 +275,7 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          //href: 'https://github.com/project-thea/mobile-app/releases',
-		  href: 'https://play.google.com/store/apps/details?id=com.theatrucker',
+		  href: 'https://play.google.com/store/apps/details?id=org.theadct',
           className: 'banner5-button',
           type: 'primary',
           children: (
@@ -595,6 +595,61 @@ export const Teams20DataSource = {
     className: 'block-wrapper',
     gutter: 72,
     children: [
+      {
+        name: 'block2',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: handover,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper2',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p><a href="/blog.html?article=13">Handover ceremony to Ministry of Health</a></p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <span>
+                    <p>16<sup>th</sup> December 2022</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>Handover ceremony held to officially hand the project to the Ministry of Health.</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
 	{
         name: 'block0',
         className: 'block',
@@ -693,61 +748,7 @@ export const Teams20DataSource = {
           ],
         },
       },
-      {
-        name: 'block2',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children: namanve04082022,
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper2',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p><a href="/blog.html?article=10">Community engagement at Namanve trucks parking yard</a></p>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <span>
-                    <p>4<sup>th</sup> August 2022</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>Community engagement of truck drivers of Namanve parking yard</p>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
+
     ],
   },
 };

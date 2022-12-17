@@ -27,6 +27,12 @@ import nalukolongo2022 from '../images/nalukolongo_july2022.jpeg';
 import namanve04082022 from '../images/namanve_04082022.jpeg';
 import mutukula14092022 from '../images/mutukula_14092022.jpg';
 import africana from '../images/africana.jpg';
+import handover01 from '../images/thea-dct-handover.jpeg';
+import handover02 from '../images/handover02.jpeg';
+import handover03 from '../images/handover03.jpeg';
+import handover04 from '../images/handover04.jpeg';
+import handover05 from '../images/handover05.jpeg';
+import handover06 from '../images/handover06.jpeg';
 
 export const Banner50DataSource = {
   wrapper: { className: 'home-page-wrapper banner5' },
@@ -1012,6 +1018,52 @@ As part of our trial of the digital tool, we have started onboarding truck drive
           ],
         },
       },
+	  //13
+     {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p><a href="blog.html?article=13">Handover ceremony to the Ministry of Health</a></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p>16 <sup> th</sup><strong>December 2022</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>The THEA team together with it's partners held a handover ceremony of the digital contact tracing platform to the ministry of Health.
+
+                  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
 	 
 
        
@@ -1750,6 +1802,81 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
           <p> Most truckers mentioned doing crossborder trips; Uganda to Tanzania, Uganda to Congo but also inland; across the country; depending on where business is; Lira, Arua, all over Uganda.These transport goods ranging from petroleum, to food stuff to other non-perishables.
 				  </p>
                 </span>
+              ),
+            },
+          ],
+        },
+      },
+	  //13
+	  {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>16<sup>th</sup> December 2022 - The THEA team together with it's partners held a handover ceremony of the digital contact tracing platform to the ministry of Health.</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p><strong></strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+				<div>
+				<table>
+					<tr>
+						<td>
+						<img src={handover01} width="100%"/>
+							<span>THEA Project team with the guests</span>
+						</td>
+						<td>
+							<img src={handover02} width="100%"/>
+							<span>Mr. Mukama, a truck driver of 28 years, briefly shared a touching testimony of his life as a truck driver</span>
+						</td>
+					</tr>					
+					<tr>
+						<td>
+							<img src={handover03} width="100%"/>
+							<span>Dr. Christine M. Mpyangu presenting practical sociological experiences associated with DCT as shared in Naluwerere, Namanve, Elegu, Mutukula and Malaba communities.</span>
+						</td>
+						<td>
+							<img src={handover04} width="100%"/>
+							<span>Dr. Erisa Mwaka, articulating the ethical perspectives associated with DCT utilization in Uganda. He was presenting funds from a recent field work</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src={handover05} width="100%"/>
+							<span>Dr. Kyabayinze Daniel, Director of Public Health - MoH giving his key note speech before accepting the mobile app from THEA - DCT project</span>
+						</td>
+						<td>
+							<img src={handover06} width="100%"/>
+							<span>Commissioner, Winstone Katushabe , Dr. Kyabayonze Daniel - Director Public Health MoH, Dr Adrian as P.I and Ass. Prof. Erisa Mwaka - Co investigator grace the Ocassion</span>
+						</td>
+					</tr>
+				</table>
+				</div>
               ),
             },
           ],
