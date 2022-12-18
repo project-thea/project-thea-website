@@ -1,4 +1,5 @@
 import React from 'react';
+import { Col, Row, Divider } from 'antd';
 import logoImg from '../images/logo_text_colored.svg';
 import logoWhiteImg from '../images/logo_text_white.svg';
 //import networkImg from '../images/network_structure.png';
@@ -33,6 +34,8 @@ import handover03 from '../images/handover03.jpeg';
 import handover04 from '../images/handover04.jpeg';
 import handover05 from '../images/handover05.jpeg';
 import handover06 from '../images/handover06.jpeg';
+import handover0 from '../images/handover0.jpeg';
+import handover8 from '../images/handover8.jpeg';
 
 export const Banner50DataSource = {
   wrapper: { className: 'home-page-wrapper banner5' },
@@ -1844,38 +1847,51 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
               className: '',
               children: (
 				<div>
-				<table>
-					<tr>
-						<td>
-						<img src={handover01} width="100%"/>
+					<Row gutter={16}>
+						<Col className="gutter-row" xs={24} sm={24} md={12}>
+							<img src={handover01} width="100%"/>
 							<span>THEA Project team with the guests</span>
-						</td>
-						<td>
+							<br />
+						</Col>
+						<Col className="gutter-row" xs={24} sm={24} md={12}>
 							<img src={handover02} width="100%"/>
 							<span>Mr. Mukama, a truck driver of 28 years, briefly shared a touching testimony of his life as a truck driver</span>
-						</td>
-					</tr>					
-					<tr>
-						<td>
+						</Col>
+					</Row>
+					
+					<Row gutter={16}>
+						<Col className="gutter-row" xs={24} sm={24} md={12}>
+							<img src={handover0} width="100%"/>
+							<span>Dr. Adrian Muwonge, the project PI presenting the project background.</span>
+							<br />
+						</Col>
+						<Col className="gutter-row" xs={24} sm={24} md={12}>
+							<img src={handover8} width="100%"/>
+							<span>Eng. Emmanuel Robert Ssebaggala, the Technology Lead, presenting the DCT technology.</span>
+						</Col>
+					</Row>
+					
+					<Row gutter={16}>
+						<Col className="gutter-row" xs={24} sm={24} md={12}>
 							<img src={handover03} width="100%"/>
 							<span>Dr. Christine M. Mpyangu presenting practical sociological experiences associated with DCT as shared in Naluwerere, Namanve, Elegu, Mutukula and Malaba communities.</span>
-						</td>
-						<td>
+						</Col>
+						<Col className="gutter-row" xs={24} sm={24} md={12}>
 							<img src={handover04} width="100%"/>
 							<span>Dr. Erisa Mwaka, articulating the ethical perspectives associated with DCT utilization in Uganda. He was presenting funds from a recent field work</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
+						</Col>
+					</Row>
+				
+					<Row gutter={16}>
+						<Col className="gutter-row" xs={24} sm={24} md={12}>
 							<img src={handover05} width="100%"/>
 							<span>Dr. Kyabayinze Daniel, Director of Public Health - MoH giving his key note speech before accepting the mobile app from THEA - DCT project</span>
-						</td>
-						<td>
+						</Col>
+						<Col className="gutter-row" xs={24} sm={24} md={12}>
 							<img src={handover06} width="100%"/>
 							<span>Commissioner, Winstone Katushabe , Dr. Kyabayonze Daniel - Director Public Health MoH, Dr Adrian as P.I and Ass. Prof. Erisa Mwaka - Co investigator grace the Ocassion</span>
-						</td>
-					</tr>
-				</table>
+						</Col>
+					</Row>
 				</div>
               ),
             },
