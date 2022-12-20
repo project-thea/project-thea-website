@@ -1878,7 +1878,7 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
 						</Col>
 						<Col className="gutter-row" xs={24} sm={24} md={12}>
 							<img src={handover04} width="100%"/>
-							<span>Dr. Erisa Mwaka, articulating the ethical perspectives associated with DCT utilization in Uganda. He was presenting funds from a recent field work</span>
+							<span>Dr. Erisa Mwaka, articulating the ethical perspectives associated with DCT utilization in Uganda. He was presenting findings from a recent field work</span>
 						</Col>
 					</Row>
 				

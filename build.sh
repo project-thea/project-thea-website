@@ -6,6 +6,7 @@ cp privacy-policy.html dist/
 mkdir -p dist/assets 
 cp src/assets/* dist/assets/
 git add ./*
+cd dist && git add ./* -f
 git commit -m "Update website" -n
 git checkout master # you can avoid this line if you are in master...
 git subtree split --prefix dist -b gh-pages # create a local gh-pages branch containing the splitted output folder
