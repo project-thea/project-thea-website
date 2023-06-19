@@ -33,6 +33,7 @@ import handover03 from '../images/handover03.jpeg';
 import handover04 from '../images/handover04.jpeg';
 import handover05 from '../images/handover05.jpeg';
 import handover06 from '../images/handover06.jpeg';
+import malaba19062023 from '../images/20230619_170844_malaba.jpg';
 
 export const Banner50DataSource = {
   wrapper: { className: 'home-page-wrapper banner5' },
@@ -1064,6 +1065,52 @@ As part of our trial of the digital tool, we have started onboarding truck drive
           ],
         },
       },
+     {
+        name: 'block8',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children: null,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p><a href="blog.html?article=13">THEA-C19 Feedback meeting at Malaba PoE</a></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p>19 <sup> th</sup><strong>June 2023</strong></p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: '',
+              children: (
+                <span>
+                  <p>
+                  THEA-C19 team met with the port health team at Malaba PoE to get feedback on the technology usage and socialogical aspects.
+
+                  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
 	 
 
        
@@ -1808,6 +1855,83 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
         },
       },
 	  //13
+    {
+      name: 'block8',
+      className: 'block',
+      md: 24,
+      xs: 24,
+      image: {
+        name: 'image',
+        className: 'teams2-image',
+        children: null,
+      },
+      titleWrapper: {
+        className: 'teams2-textWrapper',
+        children: [
+          {
+            name: 'title',
+            className: 'teams2-title',
+            children: (
+              <span>
+                <p><a href="blog.html?article=13">Handover ceremony to the Ministry of Health</a></p>
+              </span>
+            ),
+          },
+          {
+            name: 'content',
+            className: 'teams2-job',
+            children: (
+              <span>
+                <p>16 <sup> th</sup><strong>December 2022</strong></p>
+              </span>
+            ),
+          },
+          {
+            name: 'content1',
+            className: '',
+            children: (
+              <div>
+              <table>
+                <tr>
+                  <td>
+                  <img src={handover01} width="100%"/>
+                    <span>THEA Project team with the guests</span>
+                  </td>
+                  <td>
+                    <img src={handover02} width="100%"/>
+                    <span>Mr. Mukama, a truck driver of 28 years, briefly shared a touching testimony of his life as a truck driver</span>
+                  </td>
+                </tr>					
+                <tr>
+                  <td>
+                    <img src={handover03} width="100%"/>
+                    <span>Dr. Christine M. Mpyangu presenting practical sociological experiences associated with DCT as shared in Naluwerere, Namanve, Elegu, Mutukula and Malaba communities.</span>
+                  </td>
+                  <td>
+                    <img src={handover04} width="100%"/>
+                    <span>Dr. Erisa Mwaka, articulating the ethical perspectives associated with DCT utilization in Uganda. He was presenting funds from a recent field work</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={handover05} width="100%"/>
+                    <span>Dr. Kyabayinze Daniel, Director of Public Health - MoH giving his key note speech before accepting the mobile app from THEA - DCT project</span>
+                  </td>
+                  <td>
+                    <img src={handover06} width="100%"/>
+                    <span>Commissioner, Winstone Katushabe , Dr. Kyabayonze Daniel - Director Public Health MoH, Dr Adrian as P.I and Ass. Prof. Erisa Mwaka - Co investigator grace the Ocassion</span>
+                  </td>
+                </tr>
+              </table>
+              </div>
+            ),
+          },
+        ],
+      },
+    },
+
+
+	  //14
 	  {
         name: 'block8',
         className: 'block',
@@ -1826,7 +1950,8 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
               className: 'teams2-title',
               children: (
                 <span>
-                  <p>16<sup>th</sup> December 2022 - The THEA team together with it's partners held a handover ceremony of the digital contact tracing platform to the ministry of Health.</p>
+                  <p>19<sup>th</sup> June 2023 - THEA-C19 Feedback meeting at Malaba PoE.</p>
+
                 </span>
               ),
             },
@@ -1843,40 +1968,34 @@ The THEA team held community sensitisation events about Covid-19 and it's immuni
               name: 'content1',
               className: '',
               children: (
-				<div>
-				<table>
-					<tr>
-						<td>
-						<img src={handover01} width="100%"/>
-							<span>THEA Project team with the guests</span>
-						</td>
-						<td>
-							<img src={handover02} width="100%"/>
-							<span>Mr. Mukama, a truck driver of 28 years, briefly shared a touching testimony of his life as a truck driver</span>
-						</td>
-					</tr>					
-					<tr>
-						<td>
-							<img src={handover03} width="100%"/>
-							<span>Dr. Christine M. Mpyangu presenting practical sociological experiences associated with DCT as shared in Naluwerere, Namanve, Elegu, Mutukula and Malaba communities.</span>
-						</td>
-						<td>
-							<img src={handover04} width="100%"/>
-							<span>Dr. Erisa Mwaka, articulating the ethical perspectives associated with DCT utilization in Uganda. He was presenting funds from a recent field work</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<img src={handover05} width="100%"/>
-							<span>Dr. Kyabayinze Daniel, Director of Public Health - MoH giving his key note speech before accepting the mobile app from THEA - DCT project</span>
-						</td>
-						<td>
-							<img src={handover06} width="100%"/>
-							<span>Commissioner, Winstone Katushabe , Dr. Kyabayonze Daniel - Director Public Health MoH, Dr Adrian as P.I and Ass. Prof. Erisa Mwaka - Co investigator grace the Ocassion</span>
-						</td>
-					</tr>
-				</table>
-				</div>
+                <div>
+                    <img src={malaba19062023} width="100%"/>
+
+                    <br />
+                    <br />
+                    <p>
+                      The meeting discussed various challenges related to recruitment and the technology as a whole. Teams from the different points of entry were represented.
+                    Below are the highlights from the meeting.
+                    </p>
+
+
+                    <br />
+                    <ul>
+                      <li>There was initial resistance from drivers, but they eventually realized the potential benefits of the system, particularly in terms of contact tracing.</li>
+                      <li>The addition of Google Maps was acknowledged as helpful for traffic information and infection hotspot reporting</li>
+                      <li>Simplifying port health activities: The suggestion was made to utilize THEA or digitizing technology to simplify port health activities.</li>
+                      <li>Complexity of obtaining COVID certificates: It was mentioned that there are several steps involved in obtaining COVID certificates, and due to the long journeys, drivers sometimes forget certain documents.</li>
+                      <li> Drivers expressed their desire to know where they should reported road incidents are stored and used.</li>
+                      <li> It was emphasized that behind the technology, there are people who need to be considered and supported socialogically</li>
+                      <li> The process to retreave the COVID-19 certificate is lengthy</li>
+                    </ul>
+
+                    <br />
+
+                    <p>
+                    Overall, the meeting addressed various technical, social and operational aspects of the project, focusing on improving validity verification, simplifying port health activities, addressing drivers' concerns, and providing comprehensive support and services to the drivers.
+                    </p>
+                </div>
               ),
             },
           ],

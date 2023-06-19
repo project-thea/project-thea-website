@@ -20,6 +20,7 @@ import mukwanoJan2022 from '../images/mukwano_jan_2022.jpeg';
 import malabaFeb2022 from '../images/malaba_feb2022.jpeg';
 import malabaMar2022 from '../images/malabaMarch2022.jpeg';
 import namanve04082022 from '../images/namanve_04082022-2.jpeg';
+import malaba19062023 from '../images/20230619_170844_malaba.jpg';
 import mutukula14092022 from '../images/mutukula_14092022.jpg';
 import africana from '../images/africana.jpg';
 import handover from '../images/thea-dct-handover.jpeg';
@@ -603,6 +604,61 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
+          children: malaba19062023,
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper2',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p><a href="/blog.html?article=14">THEA-C19 Feedback meeting at Malaba PoE</a></p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <span>
+                    <p>19<sup>th</sup> June 2023</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>THEA-C19 team met with the port health team  at Malaba PoE to get feedback on the technology usage and social aspects</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block2',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
           children: handover,
         },
         titleWrapper: {
@@ -701,54 +757,6 @@ export const Teams20DataSource = {
           ],
         },
       },
-      {
-        name: 'block1',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children: africana,
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper2',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p><a href="/blog.html?article=11">THEA Workshop at Hotel Africana</a></p>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                   <p>26<sup>th</sup> August 2022</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: (
-                <span>
-                  <p>The THEA team held a workshop with various stakeholders to review the project and technology.</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-
     ],
   },
 };
